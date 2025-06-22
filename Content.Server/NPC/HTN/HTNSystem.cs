@@ -211,9 +211,6 @@ public sealed class HTNSystem : EntitySystem
                 return;
             }
 
-            if (!comp.Enabled)
-                continue;
-
             if (!IsNPCActive(uid))  // Frontier
                 continue; // Frontier
 

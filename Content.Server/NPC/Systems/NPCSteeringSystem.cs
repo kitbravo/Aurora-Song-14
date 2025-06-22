@@ -225,6 +225,41 @@ public sealed partial class NPCSteeringSystem : SharedNPCSteeringSystem
         RemComp<NPCSteeringComponent>(uid);
     }
 
+    public (EntityUid Entity, float Distance)? GetNearestPlayerEntity(Vector2 from)
+    {
+        var allPlayerData = _playerManager.GetAllPlayerData();
+        (EntityUid Entity, float Distance)? closest = null;
+
+        foreach (var playerData in allPlayerData)
+        {
+            var exists = _playerManager.TryGetSessionById(playerData.UserId, out var session);
+
+            if (!exists || session == null
+                || session.AttachedEntity is not { Valid: true } playerEnt
+                || HasComp<GhostComponent>(playerEnt)
+                || TryComp<MobStateComponent>(playerEnt, out var state) && state.CurrentState != MobState.Alive)
+                continue;
+
+            var pos = _transform.GetWorldPosition(playerEnt);
+
+            if (closest is null)
+            {
+                closest = (playerEnt, Vector2.Distance(pos, from));
+                continue;
+            }
+
+            var closestData = closest.Value;
+            var distance = Vector2.Distance(pos, from);
+
+            if (distance < closestData.Distance)
+            {
+                closest = (playerEnt, distance);
+            }
+        }
+
+        return closest;
+    }
+
     public override void Update(float frameTime)
     {
         base.Update(frameTime);
