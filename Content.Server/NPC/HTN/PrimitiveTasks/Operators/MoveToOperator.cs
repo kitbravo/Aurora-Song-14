@@ -1,3 +1,12 @@
+// SPDX-FileCopyrightText: 2022 metalgearsloth
+// SPDX-FileCopyrightText: 2023 DrSmugleaf
+// SPDX-FileCopyrightText: 2024 Tayrtahn
+// SPDX-FileCopyrightText: 2025 ark1368
+// SPDX-FileCopyrightText: 2025 monolith8319
+// SPDX-FileCopyrightText: 2025 sleepyyapril
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using System.Threading;
 using System.Threading.Tasks;
 using Content.Server.NPC.Components;
@@ -69,6 +78,14 @@ public sealed partial class MoveToOperator : HTNOperator, IHtnConditionalShutdow
         _pathfind = sysManager.GetEntitySystem<PathfindingSystem>();
         _steering = sysManager.GetEntitySystem<NPCSteeringSystem>();
         _transform = sysManager.GetEntitySystem<SharedTransformSystem>();
+        _cfg = IoCManager.Resolve<IConfigurationManager>();
+
+        _cfg.OnValueChanged(CCVars.NPCMovementCheckPlayerDistances, UpdateDoNearbyPlayerCheck, true);
+    }
+
+    private void UpdateDoNearbyPlayerCheck(bool newValue)
+    {
+        _doNearbyPlayerCheck = newValue;
     }
 
     public override async Task<(bool Valid, Dictionary<string, object>? Effects)> Plan(NPCBlackboard blackboard,
