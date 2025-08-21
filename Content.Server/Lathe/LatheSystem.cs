@@ -312,7 +312,9 @@ namespace Content.Server.Lathe
             if (!Resolve(uid, ref component))
                 return;
 
-            var producing = component.CurrentRecipe ?? component.Queue.FirstOrDefault()?.Recipe; // Frontier: add ?.Recipe
+            var producing = component.CurrentRecipe ?? component.Queue.First().Recipe; // Frontier: add ?.Recipe
+            //if (producing == null && component.Queue.TryPeek(out var next))
+            //    producing = next;
 
             var state = new LatheUpdateState(GetAvailableRecipes(uid, component), component.Queue, producing);
             _uiSys.SetUiState(uid, LatheUiKey.Key, state);
