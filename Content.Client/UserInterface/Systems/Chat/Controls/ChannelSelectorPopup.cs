@@ -13,7 +13,7 @@ public sealed class ChannelSelectorPopup : Popup
         ChatSelectChannel.Whisper,
         ChatSelectChannel.Emotes,
         ChatSelectChannel.Subtle, // Floofstation
-        ChatSelectChannel.SubtleOOC, // Aurora pulled from Den
+        ChatSelectChannel.SubtleOOC, // Den
         ChatSelectChannel.Radio,
         ChatSelectChannel.LOOC,
         ChatSelectChannel.OOC,
