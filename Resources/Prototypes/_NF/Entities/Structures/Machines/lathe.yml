@@ -150,7 +150,6 @@
     - NFEngineeringStructureBoardsStatic
     - NFEngineeringMaterialsStatic
     - NFInflatablesStatic
-
   - type: BlueprintReceiver
     whitelist:
       tags:
