@@ -91,6 +91,7 @@
   - VialBluespace
   - ClothingOuterHardsuitMedical
   - DefibrillatorCompact
+  - MedicalPouch
 
 - type: latheRecipePack
   id: NFMedicalBoards
