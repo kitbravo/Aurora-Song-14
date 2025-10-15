@@ -6,7 +6,10 @@
         "x": 32,
         "y": 32
     },
+<<<<<<< HEAD
     "rsic": false,
+=======
+>>>>>>> 07b88443da7 (Inflatable structures (resprited old, added new) (#3969))
     "states": [
         {
             "name": "inflatable-floor"

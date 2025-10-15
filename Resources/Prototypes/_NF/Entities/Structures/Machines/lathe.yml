@@ -110,6 +110,7 @@
     runningState: icon
     staticPacks:
     - NFEngineeringTechfabDeprecatedStatic
+    - NFInflatablesStatic
   - type: BlueprintReceiver
     whitelist:
       tags:
@@ -143,6 +144,7 @@
     runningState: icon
     staticPacks:
     - NFSalvageTechfabDeprecatedStatic
+    - NFInflatablesStatic
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFSalvageTechfabDeprecatedEmag
