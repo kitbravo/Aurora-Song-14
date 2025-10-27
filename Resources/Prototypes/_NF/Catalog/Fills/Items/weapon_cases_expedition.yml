@@ -63,7 +63,7 @@
     contents:
     - id: NFWeaponPistolUniversalExpedition
       amount: 1
-    - id: NFMagazineHighCapacityPistol35
+    - id: NFMagazinePistol45 # Now chambered in .45 | Aurora Song
       amount: 2
 
 - type: entity
@@ -534,7 +534,7 @@
     contents:
     - id: NFWeaponRifleRepeaterExpedition
       amount: 1
-    - id: NFAmmunitionBoxRifle20
+    - id: NFAmmunitionBoxPistol45  # Back to .45 for the Repeater | Aurora Song
       amount: 2
 
 - type: entity

@@ -52,6 +52,8 @@
   description: |-
     A premium semi-automatic shotgun, featuring an upgraded tube capacity.
   components:
+  - type: BallisticAmmoProvider
+    capacity: 7
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
   - type: Clothing
