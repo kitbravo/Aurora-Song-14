@@ -4770,3 +4770,10 @@ Entries:
   id: 8686
   time: '2025-11-03T16:10:39.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/562
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: additional MIDI soundfont changes from WizDen
+  id: 8687
+  time: '2025-11-03T17:59:35.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/564
