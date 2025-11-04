@@ -12,7 +12,7 @@
   - type: InstantAction # Frontier, Wizden#27422 compliance
     event: !type:CoughItemActionEvent
 
-- type: entity Aurora: Disabled cheek storage for now.
+- type: entity
   id: ActionOpenMouthStorage
   name: Open cheek storage
   description: Allows you to store items in your cheeks.
