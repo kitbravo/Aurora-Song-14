@@ -45,7 +45,7 @@
 - type: entity
   id: ASMagazineCaselessRifleShort
   name: short magazine (.25 rifle)
-  parent: BaseMagazineCaselessRifleShort
+  parent: BaseMagazineCaselessRifle
   components:
   - type: Tag
     tags:
@@ -111,7 +111,7 @@
 - type: entity
   id: MagazineCaselessRifleShortRubber
   name: short magazine (.25 rifle, rubber) # updated name to be consistent | Aurora
-  parent: BaseMagazineCaselessRifleShort
+  parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
     proto: NFCartridgeRifle25Rubber
