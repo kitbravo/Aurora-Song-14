@@ -4777,3 +4777,10 @@ Entries:
   id: 8687
   time: '2025-11-03T17:59:35.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/564
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: Surplus Falchion replaced with normal-marked Falchion in loot tables
+  id: 8688
+  time: '2025-11-04T18:38:18.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/568
