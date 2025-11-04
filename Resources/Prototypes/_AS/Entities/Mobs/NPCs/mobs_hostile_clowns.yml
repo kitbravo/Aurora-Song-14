@@ -386,10 +386,6 @@
     layers:
     - sprite: _NF/Mobs/Species/Templates/human.rsi
       state: human
-    thresholds:
-      0: Alive
-      40: Critical
-      60: Dead
   - type: Stamina
     critThreshold: 500
   - type: MovementSpeedModifier
