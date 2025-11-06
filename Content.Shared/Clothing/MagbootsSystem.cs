@@ -52,7 +52,9 @@ public sealed class SharedMagbootsSystem : EntitySystem
         if (TryComp<MovedByPressureComponent>(user, out var moved))
             moved.Enabled = !state;
 
-        _gravity.RefreshWeightless(user, !state);
+    // Aurora Song: Ensure the wearer participates in gravity calculations (fixes lobby preview/equip path)
+        EnsureComp<GravityAffectedComponent>(user);
+        _gravity.RefreshWeightless(user);
 
         if (state)
             _alerts.ShowAlert(user, ent.Comp.MagbootsAlert);
