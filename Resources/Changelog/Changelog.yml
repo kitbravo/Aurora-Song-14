@@ -4811,3 +4811,10 @@ Entries:
   id: 8827
   time: '2025-11-07T07:44:14.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/582
+- author: assignedgod
+  changes:
+    - type: Fix
+      message: Stopped npc chat logging
+  id: 8828
+  time: '2025-11-07T08:34:34.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/577
