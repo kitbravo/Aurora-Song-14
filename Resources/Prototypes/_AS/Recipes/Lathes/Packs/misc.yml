@@ -12,3 +12,9 @@
     - MagentaFloodlight
     - MagentaFlashlight
     - BlueFlashlight
+
+# Aurora Song: Small machines pack
+- type: latheRecipePack
+  id: ASSmallMachines
+  recipes:
+    - AACTablet

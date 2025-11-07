@@ -537,8 +537,9 @@
     - NFLights # Aurora, let them amke lights cmon
     - ASBlueMagentaColorFlashlights # Aurora
     - NFMedicalStatic # Frontier
-    staticRecipes:
-      - AACTablet # DeltaV
+    - ASSmallMachines # Aurora Song
+    # staticRecipes: # Deprecated functionality, use staticPacks instead
+    #   - AACTablet # DeltaV
     # dynamicPacks: # Frontier
     # - Chemistry # Frontier
   - type: Machine
