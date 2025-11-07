@@ -470,6 +470,7 @@
   - type: Vocalizer
     minVocalizeInterval: 120
     maxVocalizeInterval: 240
+    hideChat: true
   - type: DatasetVocalizer
     dataset: syndicatehumanoidchatter
   - type: FTLKnockdownImmune

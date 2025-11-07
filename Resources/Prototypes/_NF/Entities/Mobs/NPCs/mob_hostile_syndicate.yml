@@ -38,6 +38,7 @@
   - type: Vocalizer
     minVocalizeInterval: 30
     maxVocalizeInterval: 120
+    hideChat: true
   - type: DatasetVocalizer
     dataset: syndicatehumanoidchatter
   - type: AutoWakeUp
