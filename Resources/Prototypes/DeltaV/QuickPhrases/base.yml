@@ -84,3 +84,11 @@
   group: Service
   styleClass: ServiceButton
   abstract: true
+
+# Aurora Song: Police department for law enforcement roles
+- type: quickPhrase
+  id: BasePolicePhrase
+  group: Police
+  styleClass: PoliceButton
+  abstract: true
+

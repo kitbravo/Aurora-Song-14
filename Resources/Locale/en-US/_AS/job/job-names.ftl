@@ -1,2 +1,13 @@
 job-name-medical = Medic
 job-name-service = Service Worker
+
+# Aurora Song: AAC Tablet job quick phrases (Aurora Song specific only)
+job-name-station-representative = Station Representative
+job-name-commissioner = Commissioner
+job-name-medic = Medic
+job-name-lieutenant = Lieutenant
+job-name-sergeant = Sergeant
+job-name-sle-officer = SLE Officer
+job-name-officer = Officer
+job-name-service-worker = Service Worker
+job-name-mail-person = Mail Person

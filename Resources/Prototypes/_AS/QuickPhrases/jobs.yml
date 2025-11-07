@@ -1,0 +1,57 @@
+# Aurora Song: Job-related quick phrases for AAC Tablet
+# Only includes Aurora Song-specific jobs not in DeltaV
+# Uses DeltaV's existing base types (BaseCommandJobPhrase, etc.)
+
+# Aurora Song: Police department base type
+- type: quickPhrase
+  parent: [ BasePolicePhrase, BaseJobPhrase ]
+  abstract: true
+  id: BasePoliceJobPhrase
+
+# Command
+
+- type: quickPhrase
+  parent: BaseCommandJobPhrase
+  id: StationRepresentativePhrase
+  text: job-name-station-representative
+
+# Police
+
+- type: quickPhrase
+  parent: BasePoliceJobPhrase
+  id: CommissionerPhrase
+  text: job-name-commissioner
+
+- type: quickPhrase
+  parent: BasePoliceJobPhrase
+  id: LieutenantPhrase
+  text: job-name-lieutenant
+
+- type: quickPhrase
+  parent: BasePoliceJobPhrase
+  id: SergeantPhrase
+  text: job-name-sergeant
+
+- type: quickPhrase
+  parent: BasePoliceJobPhrase
+  id: SLEOfficerPhrase
+  text: job-name-sle-officer
+
+- type: quickPhrase
+  parent: BasePoliceJobPhrase
+  id: ASLeoPhraseOfficer
+  text: job-name-officer
+
+# Medical
+
+- type: quickPhrase
+  parent: BaseMedicalJobPhrase
+  id: MedicPhrase
+  text: job-name-medic
+
+# Logistics
+
+- type: quickPhrase
+  parent: BaseLogisticsJobPhrase
+  id: MailPersonPhrase
+  text: job-name-mail-person
