@@ -78,7 +78,7 @@ public sealed partial class PowerCellSystem : SharedPowerCellSystem
             ,
             0f => 0 // Empty (no overlay)
             ,
-            _ => 0 // Shouldn't happen, but catches edge cases with a discard 
+            _ => 0 // Shouldn't happen, but catches edge cases with a discard
         };
 
         _sharedAppearanceSystem.SetData(uid, PowerCellVisuals.ChargeLevel, level);
