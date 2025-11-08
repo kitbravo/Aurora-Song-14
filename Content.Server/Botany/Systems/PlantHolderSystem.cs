@@ -88,7 +88,6 @@ public sealed class PlantHolderSystem : EntitySystem
         if (component.Seed == null)
             return 0;
 
-    // Aurora - Revert clamp on minorfixes; kept only on dedicated branch 'plant-growth-clamp-fix'
     var result = Math.Max(1, (int)(component.Age * component.Seed.GrowthStages / component.Seed.Maturation));
     return result;
     }
