@@ -106,11 +106,11 @@
   # - FelinidEmotes Aurora's Song
   # - type: FootPrints Aurora's Song
   - type: Temperature
-    coldDamageThreshold: 0 # -25 degrees centigrade, like 12 degrees below normal, #Aurora: They get slowdown, but they get immunity to cold damage basically.
+    coldDamageThreshold:  248.15 # -25 degrees centigrade, like 12 degrees below normal
     currentTemperature: 311.76  # Body temperature of cat
     heatDamage:
       types:
-        Cold: 0.65 # in line with cold resist
+        Cold: 0.5 # in line with cold resist # Aurora: 50% resistance
     coldDamage:
       types:
         Heat: 2 # poor kitty
