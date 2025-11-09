@@ -89,12 +89,14 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    sprite: _AS/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/40smg_mag.rsi
+    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/smg_mag.rsi
     inhandVisuals:
       left:
       - state: inhand-left-mag
+      - state: inhand-left-stripe
       right:
       - state: inhand-right-mag
+      - state: inhand-right-stripe
 
 #region standard mags .40
 - type: entity
