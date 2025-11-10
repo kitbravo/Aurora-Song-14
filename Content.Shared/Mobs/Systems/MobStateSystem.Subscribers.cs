@@ -141,13 +141,12 @@ public partial class MobStateSystem
 
     private void OnSpeakAttempt(EntityUid uid, MobStateComponent component, SpeakAttemptEvent args)
     {
-        if (HasComp<AllowNextCritSpeechComponent>(uid))
+        if (MobState.Dead == component.CurrentState)
         {
-            RemCompDeferred<AllowNextCritSpeechComponent>(uid);
-            return;
+            args.Cancel();
         }
 
-        CheckAct(uid, component, args);
+
     }
 
     private void CheckAct(EntityUid target, MobStateComponent component, CancellableEntityEventArgs args)
