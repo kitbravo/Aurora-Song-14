@@ -73,7 +73,13 @@
     magState: mag
     steps: 3
     zeroVisible: true
+  - type: GunWieldBonus
+    minAngle: -6
+    maxAngle: -11
   - type: Gun
+    minAngle: 4
+    maxAngle: 22
+    fireRate: 6.5
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
       params:

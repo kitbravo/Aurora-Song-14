@@ -10,6 +10,7 @@
     damage:
       types:
         Piercing: 16 # Aurora - Average of .35 (15) and .20 (17)
+        Structural: 2
 
 - type: entity
   id: ASBulletPistol40Overpressure
@@ -21,6 +22,7 @@
     damage:
       types:
         Piercing: 20 # Aurora - Average of .35 (19) and .20 (20)
+        Structural: 3
 
 - type: entity
   id: ASBulletPistol40Incendiary
