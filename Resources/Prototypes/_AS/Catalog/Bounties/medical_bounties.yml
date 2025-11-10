@@ -1,0 +1,97 @@
+
+
+## Aurora Song medical bounties
+- type: medicalBounty
+  id: ASHurtBlunt
+  BountyGroup: AS
+  damageSets:
+    Blunt:
+      min: 70
+      max: 100
+      value: 80
+      penalty: 20
+    Asphyxiation:
+      min: 20
+      max: 30
+      value: 20
+      penalty: 5
+  # Max total: 100 + 30 = 130
+  baseReward: 4000  # 10,800–13,400 total reward
+
+- type: medicalBounty
+  id: ASHurtPierce
+  BountyGroup: AS
+  damageSets:
+    Piercing:
+      min: 70
+      max: 100
+      value: 80
+      penalty: 20
+    Bloodloss:
+      min: 20
+      max: 30
+      value: 20
+      penalty: 5
+  # Max total: 100 + 30 = 130
+  baseReward: 4000  # 10,800–13,400 total reward
+
+- type: medicalBounty
+  id: ASHurtSlash
+  BountyGroup: AS
+  damageSets:
+    Slash:
+      min: 70
+      max: 100
+      value: 80
+      penalty: 20
+    Bloodloss:
+      min: 20
+      max: 30
+      value: 20
+      penalty: 5
+  # Max total: 100 + 30 = 130
+  baseReward: 4000  # 10,800–13,400 total reward
+
+- type: medicalBounty
+  id: ASMildBruteMix
+  BountyGroup: AS
+  damageSets:
+    Blunt:
+      min: 25
+      max: 50
+      value: 30
+      penalty: 10
+    Piercing:
+      min: 25
+      max: 50
+      value: 30
+      penalty: 10
+    Slash:
+      min: 25
+      max: 50
+      value: 30
+      penalty: 10
+    Bloodloss:
+      min: 15
+      max: 40
+      value: 10
+      penalty: 5
+  # Max total: 50 + 50 + 50 + 40 = 190
+  baseReward: 3000  # 5,900–7,350 total reward
+
+- type: medicalBounty
+  id: ASSuffocated
+  BountyGroup: AS
+  damageSets:
+    Asphyxiation:
+      min: 70
+      max: 100
+      value: 60
+      penalty: 15
+    Bloodloss:
+      min: 20
+      max: 30
+      value: 20
+      penalty: 5
+  # Max total: 100 + 30 = 130
+  baseReward: 3500  # 8,700–10,700 total reward
