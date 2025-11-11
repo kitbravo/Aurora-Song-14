@@ -1,11 +1,9 @@
 ﻿- type: entity
+  id: MobFairyBase
   parent: BaseMobHuman
   name: Urist McFairy
-  id: MobFairyBase
   abstract: true
   components:
-  - type: Sprite
-    scale: 0.3, 0.2
   - type: MobThresholds
     thresholds:
       0: Alive
@@ -20,8 +18,8 @@
       fix1:
         shape:
           !type:PhysShapeCircle
-          radius: 0.28
-        density: 135
+          radius: 0.20
+        density: 50
         restitution: 0.0
         mask:
         - MobMask
@@ -31,15 +29,6 @@
     prototype: Fairy
   - type: Damageable
     damageModifierSet: Fairy
-  - type: MeleeWeapon
-    soundHit:
-      collection: Punch
-    angle: 30
-    animation: WeaponArcFist
-    attackRate: 1
-    damage:
-      types:
-        Blunt: 1
   - type: Speech
     speechSounds: Alto
   - type: SlowOnDamage
@@ -47,7 +36,6 @@
       30: 0.7
       40: 0.5
   - type: DamageVisuals
-    thresholds: [ 10, 15, 20, 30, 40, 50 ]
     targetLayers:
     - "enum.HumanoidVisualLayers.Chest"
     - "enum.HumanoidVisualLayers.Head"
@@ -71,18 +59,41 @@
     BloodMaxVolume: 20
   - type: PseudoItem
     size: Small
+    shape:
+      - 0, 0, 0, 0
+      - 0, 0, 0, 0
   - type: Vocal
     sounds:
       Male: MaleHuman
       Female: FemaleHuman
       Unsexed: MaleHuman
+  - type: FaxableObject
+    insertingState: inserting_mouse
   - type: NpcFactionMember
     factions:
-    - NanoTrasen
+      - NanoTrasen
+      - Mouse
+  - type: AlwaysTriggerMousetrap
+  - type: Carriable # Frontier: Carrying system from nyanotrasen.
+    PickupDuration: 1
   - type: Butcherable
     spawned:
     - id: FoodMeatHuman
       amount: 3
+  - type: Tag
+    tags:
+    - VimPilot
+    - DoorBumpOpener
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Effects/bite.ogg
+    angle: 0
+    animation: WeaponArcBite
+    damage:
+      types:
+        Piercing: 1
+  - type: MovementSpeedModifier
+    weightlessAcceleration: 3.5
 
 - type: entity
   save: false

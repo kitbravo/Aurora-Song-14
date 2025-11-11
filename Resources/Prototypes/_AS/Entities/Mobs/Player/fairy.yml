@@ -1,5 +1,5 @@
 ﻿- type: entity
-  save: false
-  name: Urist McFairy
-  parent: [MobFairyBase, BaseMob]
   id: MobFairy
+  name: Urist McFairy
+  parent: MobFairyBase
+  save: false
