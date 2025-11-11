@@ -4857,3 +4857,10 @@ Entries:
   id: 8833
   time: '2025-11-10T23:17:22.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/578
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: Portable chargers fit in backpacks now
+  id: 8834
+  time: '2025-11-11T01:51:37.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/589
