@@ -8,8 +8,8 @@ meta:
   engineVersion: 267.3.0
   forkId: ""
   forkVersion: ""
-  time: 11/14/2025 02:51:10
-  entityCount: 630
+  time: 11/14/2025 06:23:32
+  entityCount: 629
 maps: []
 grids:
 - 1
@@ -640,91 +640,98 @@ entities:
       parent: 1
 - proto: ASCrateSuppliesLocked
   entities:
-  - uid: 582
+  - uid: 583
     components:
     - type: Transform
       pos: -4.5,-1.5
       parent: 1
     - type: AccessReader
       access: []
-  - uid: 583
+  - uid: 584
     components:
     - type: Transform
       pos: -3.5,-0.5
       parent: 1
     - type: AccessReader
       access: []
-  - uid: 584
+  - uid: 585
     components:
     - type: Transform
       pos: -3.5,-1.5
       parent: 1
     - type: AccessReader
       access: []
-  - uid: 585
+  - uid: 586
     components:
     - type: Transform
       pos: -4.5,0.5
       parent: 1
     - type: AccessReader
       access: []
-  - uid: 586
+  - uid: 587
     components:
     - type: Transform
       pos: -3.5,1.5
       parent: 1
     - type: AccessReader
       access: []
-  - uid: 587
+  - uid: 588
     components:
     - type: Transform
       pos: 4.5,-1.5
       parent: 1
     - type: AccessReader
       access: []
-  - uid: 588
+  - uid: 589
     components:
     - type: Transform
       pos: 5.5,-1.5
       parent: 1
     - type: AccessReader
       access: []
-  - uid: 589
+  - uid: 590
     components:
     - type: Transform
       pos: 4.5,-0.5
       parent: 1
     - type: AccessReader
       access: []
-  - uid: 590
+  - uid: 591
     components:
     - type: Transform
       pos: 4.5,0.5
       parent: 1
     - type: AccessReader
       access: []
-  - uid: 591
+  - uid: 592
     components:
     - type: Transform
       pos: 5.5,0.5
       parent: 1
     - type: AccessReader
       access: []
-  - uid: 592
+  - uid: 593
     components:
     - type: Transform
       pos: 4.5,1.5
       parent: 1
     - type: AccessReader
       access: []
+- proto: ASMercenarySpawnerCaptain
+  entities:
+  - uid: 386
+    components:
+    - type: Transform
+      pos: -1.5,0.5
+      parent: 1
 - proto: ASMercenarySpawnerMedic
   entities:
-  - uid: 578
+  - uid: 579
     components:
     - type: Transform
       pos: 2.5,0.5
       parent: 1
-  - uid: 579
+  - uid: 580
     components:
     - type: Transform
       pos: 11.5,0.5
@@ -746,34 +753,24 @@ entities:
     - type: Transform
       pos: 3.5,-2.5
       parent: 1
-  - uid: 570
+  - uid: 578
     components:
     - type: Transform
       pos: -5.5,2.5
       parent: 1
-  - uid: 580
+  - uid: 582
     components:
     - type: Transform
       pos: -10.5,-3.5
       parent: 1
 - proto: ASMercenarySpawnerShotgunner
   entities:
-  - uid: 386
-    components:
-    - type: Transform
-      pos: -5.5,-0.5
-      parent: 1
   - uid: 396
     components:
     - type: Transform
       pos: 11.5,-3.5
       parent: 1
-  - uid: 561
-    components:
-    - type: Transform
-      pos: 6.5,-0.5
-      parent: 1
-  - uid: 569
+  - uid: 570
     components:
     - type: Transform
       pos: -9.5,-0.5
