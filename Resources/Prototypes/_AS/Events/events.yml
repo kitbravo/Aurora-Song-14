@@ -16,8 +16,8 @@
     endRadioAnnouncement: as-event-bluespace-grid-end-announcement
     endRadioAnnouncementChannel: Medical
     weight: 5
-    duration: 1800 # 30 minutes
-    maxDuration: 1800 # 30 minutes
+    duration: 1500 # 25 minutes
+    maxDuration: 2100 # 35 minutes
   - type: BluespaceErrorRule
     groups:
       grid: !type:GridSpawnGroup
