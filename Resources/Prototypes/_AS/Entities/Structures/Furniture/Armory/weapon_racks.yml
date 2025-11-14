@@ -29,6 +29,12 @@
     - weapon4
     - weapon5
 
+# Deprecated alias for backwards compatibility with maps
+- type: entity
+  id: ASStructureGunRackSLE
+  parent: ASStructureGunRackWallmountedSLE
+  suffix: SLE, Deprecated
+
 # Melee weapon rack
 - type: entity
   id: ASStructureMeleeWeaponRackSLE
