@@ -35,15 +35,15 @@
   id: DepartmentBonusMachineSle
   parent: DepartmentBonusMachineBase
   name: SLE bonus machine
-  description: Periodically allocates a percentage of the SLE Department's budget for staff bonuses. # Aurora Song - Updated from 10% to 50%
+  description: Periodically allocates a percentage of the SLE Department's budget for staff bonuses.
   components:
   - type: Sprite
     layers:
     - state: dispenser_sle
   - type: DepartmentBonusDispensationMachine
-    targetDepartment: Sle # Aurora Song - Changed from Nfsd to Sle (Station Law Enforcement)
-    allocationRate: 0.5 # Aurora Song - Renamed from taxRate to allocationRate
-    withdrawalInterval: 30  # 30 seconds
+    targetDepartment: Sle
+    allocationRate: 0.1
+    withdrawalInterval: 3600  # 1 hour
   - type: AccessReader
     access: [["Security"]]
 
@@ -59,10 +59,10 @@
     - state: dispenser_sr
   - type: DepartmentBonusDispensationMachine
     targetDepartment: Frontier
-    allocationRate: 0.1 # Aurora Song - Renamed from taxRate to allocationRate
-    withdrawalInterval: 300  # 5 minutes
+    allocationRate: 0.1
+    withdrawalInterval: 3600  # 1 hour
   - type: AccessReader
-    access: [["Command"]]
+    access: [["Frontier"]]
 
 # Medical Department Bonus Machine
 - type: entity
@@ -76,8 +76,8 @@
     - state: dispenser_cmo
   - type: DepartmentBonusDispensationMachine
     targetDepartment: Medical
-    allocationRate: 0.1 # Aurora Song - Renamed from taxRate to allocationRate
-    withdrawalInterval: 300  # 5 minutes
+    allocationRate: 0.1
+    withdrawalInterval: 3600  # 1 hour
   - type: AccessReader
     access: [["Medical"]]
 
