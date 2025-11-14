@@ -168,6 +168,9 @@
 - type: Tag
   id: NFHotdog
 
+- type: Tag
+  id: NFGlowshroomSpores
+
 # region Blueprints
 - type: Tag
   id: NFBlueprintMedicalTechfab
