@@ -23,7 +23,7 @@
   - Quartermaster
   - ResearchDirector
   - Aurora # Frontier - Aurora Song - Changed from Frontier to Aurora
-  
+
 - type: accessLevel
   id: EmergencyShuttleRepealAll
   name: id-card-access-level-emergency-shuttle-repeal

@@ -11,3 +11,20 @@
       Capacitor: 3
     stackRequirements:
       Steel: 5
+
+- type: entity
+  id: ASTechFabSLECircuitboard
+  parent: SecurityTechFabCircuitboard
+  name: SLE techfab machine board
+  description: A machine printed circuit board for an SLE techfab.
+  components:
+    - type: Sprite
+      sprite: _AS/Objects/Misc/module.rsi
+      state: sle
+    - type: MachineBoard
+      prototype: ASTechFabSLE
+
+- type: entity
+  id: SLETechFabCircuitboard
+  parent: ASTechFabSLECircuitboard
+  deprecated: true

@@ -5,7 +5,7 @@
     proto: NFHeadwearCapable
   price: 0
   equipment:
-    head: ClothingHeadHatNfsdCampaignFilled
+    head: ASClothingHeadHatSLECampaignFilled
 
 - type: loadout
   id: SheriffClothingHeadAltHatSheriff

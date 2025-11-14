@@ -29,3 +29,40 @@
     locked: true
   - type: AccessReader
     access: [["CentralCommand"]]
+
+# SLE Crate Base Prototypes
+- type: entity
+  parent: CrateSecgear
+  id: ASCrateSLESecure1
+  name: SLE crate
+  components:
+  - type: Icon
+    sprite: _AS/Structures/Storage/Crates/sle_secure1.rsi
+  - type: Sprite
+    sprite: _AS/Structures/Storage/Crates/sle_secure1.rsi
+  - type: AccessReader
+    access: [["Security"]]
+
+- type: entity
+  parent: CrateSecgear
+  id: ASCrateSLESecure2
+  name: SLE crate
+  components:
+  - type: Icon
+    sprite: _AS/Structures/Storage/Crates/sle_secure2.rsi
+  - type: Sprite
+    sprite: _AS/Structures/Storage/Crates/sle_secure2.rsi
+  - type: AccessReader
+    access: [["Security"]]
+
+- type: entity
+  parent: CrateSecgear
+  id: ASCrateSLEBrigmedic
+  name: brigmedic crate
+  components:
+  - type: Icon
+    sprite: _AS/Structures/Storage/Crates/sle_brigmed.rsi
+  - type: Sprite
+    sprite: _AS/Structures/Storage/Crates/sle_brigmed.rsi
+  - type: AccessReader
+    access: [["Security"]]

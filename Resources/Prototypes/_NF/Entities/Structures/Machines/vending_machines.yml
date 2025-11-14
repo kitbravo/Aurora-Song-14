@@ -382,8 +382,8 @@
 - type: entity
   parent: [BaseStructureDisableAnchoring, VendingMachine]
   id: VendingMachineNfsdDrobe
-  name: SLEDrobe
-  description: A vending machine for SLE and SEC clothing!
+  name: NFSDDrobe
+  description: A vending machine for NFSD and SEC clothing!
   components:
   - type: VendingMachine
     pack: NfsdDrobeInventory

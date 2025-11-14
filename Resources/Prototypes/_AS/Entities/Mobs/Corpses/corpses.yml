@@ -13,11 +13,11 @@
 - type: startingGear
   id: ASSLEOfficerCorpseGear
   equipment:
-    head: ClothingHeadHatNfsdBeretBrown
-    mask: ClothingMaskGasNfsd
+    head: ASClothingHeadHatSLEBeretBrown
+    mask: ASClothingMaskGasSLE
     eyes: ClothingEyesGlassesNfsd
     ears: ClothingHeadsetAltSecurity
-    jumpsuit: ClothingUniformJumpsuitNfsd
+    jumpsuit: ASClothingUniformJumpsuitSLE
     shoes: ClothingShoesBootsNfsdBrownFilled
     gloves: ClothingHandsGlovesCombatNfsdBrown
     neck: ClothingNeckNfsdBadgeSecurity
