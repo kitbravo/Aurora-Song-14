@@ -292,3 +292,19 @@
       max: 50
       value: 50
   baseReward: 4500 # Damage: 90-190 total (30-70 Rad + 30-60 Cell + 30-60 Asphyx) + 30-50u each Uranium/Radium | Reward: ~14K-24K (2x NF's 5.3K-13.5K)
+
+# Light bounty for SLE officer corpses found on triage shuttles
+- type: aSMedicalBounty
+  id: ASSLEOfficerInjured
+  damageSets:
+    Blunt:
+      min: 40
+      max: 60
+      value: 40
+      penalty: 20
+    Asphyxiation:
+      min: 40
+      max: 60
+      value: 30
+      penalty: 15
+  baseReward: 3000 # Damage: 80-120 total (40-60 Blunt + 40-60 Asphyx) | Reward: ~6K-9K

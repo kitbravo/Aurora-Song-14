@@ -1793,13 +1793,6 @@ entities:
     - type: Transform
       pos: -0.68717766,4.230588
       parent: 2
-- proto: VendingMachineWallMedical
-  entities:
-  - uid: 161
-    components:
-    - type: Transform
-      pos: -0.5,-1.5
-      parent: 2
 - proto: WallShuttle
   entities:
   - uid: 62

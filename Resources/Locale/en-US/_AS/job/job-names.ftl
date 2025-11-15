@@ -9,9 +9,9 @@ job-name-officer = Officer
 job-name-service-worker = Service Worker
 job-name-mail-person = Mail Person
 job-name-director-of-care = Director of Care
-job-name-doc = DoC
 job-name-station-traffic-controller = Station Traffic Controller
-job-name-stc = STC
-job-name-plant-technician = Plant Technician
-job-name-plant-manager = Plant Manager
-job-name-ppm = PPM
+
+# Aurora Song: Shortened variants for AAC Tablet (won't conflict with NF)
+job-name-doc-short = DoC
+job-name-stc-short = STC
+job-name-ppm-short = PPM

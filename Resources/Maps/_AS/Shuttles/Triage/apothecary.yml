@@ -1547,27 +1547,14 @@ entities:
       rot: 3.141592653589793 rad
       pos: -1.5,8.5
       parent: 1
-- proto: ChemDispenser
+- proto: MachineFrameDestroyed
   entities:
   - uid: 341
     components:
     - type: Transform
       pos: -3.5,6.5
       parent: 1
-- proto: ChemistryHotplate
-  entities:
-  - uid: 417
-    components:
-    - type: Transform
-      pos: -1.5,5.5
-      parent: 1
-    - type: ItemPlacer
-      lastPlaceable: True
-      placedEntities:
-      - 415
-    - type: PlaceableSurface
-      isPlaceable: False
-- proto: ChemMaster
+- proto: ChemistryHotplateoyed
   entities:
   - uid: 122
     components:
@@ -2457,13 +2444,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -1.5,0.5
       parent: 1
-- proto: KitchenReagentGrinder
-  entities:
-  - uid: 120
-    components:
-    - type: Transform
-      pos: -1.5,4.5
-      parent: 1
 - proto: LargeBeaker
   entities:
   - uid: 167
@@ -2545,21 +2525,7 @@ entities:
     - type: Transform
       pos: -2.0530152,9.70385
       parent: 1
-- proto: MachineCentrifuge
-  entities:
-  - uid: 119
-    components:
-    - type: Transform
-      pos: -1.5,6.5
-      parent: 1
 - proto: MachineElectrolysisUnit
-  entities:
-  - uid: 269
-    components:
-    - type: Transform
-      pos: -3.5,4.5
-      parent: 1
-- proto: MedicalAssembler
   entities:
   - uid: 402
     components:
@@ -2578,7 +2544,7 @@ entities:
     - type: Transform
       pos: 4.5,6.5
       parent: 1
-- proto: MedicalTechFab
+- proto: MachineFrameDestroyed
   entities:
   - uid: 172
     components:

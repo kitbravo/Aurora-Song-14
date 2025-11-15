@@ -13,6 +13,13 @@ namespace Content.Shared._AS.Medical;
 public sealed partial class ASMedicalBountyComponent : Component
 {
     /// <summary>
+    /// Optional: Specific bounty prototype ID to use.
+    /// If null, a random bounty will be selected.
+    /// </summary>
+    [DataField]
+    public string? BountyId = null;
+
+    /// <summary>
     /// The bounty to use/used for damage generation.
     /// If null, a medical bounty type will be selected at random.
     /// </summary>

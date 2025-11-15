@@ -72,27 +72,37 @@
 #        penalty: 500
 
 # Capture Mission - Quell the Prison Riot
+# Aurora Song - Uses 4-announcement system: incoming (T+0) -> arrival (T+30m) -> warning (T+50m) -> end (T+55m)
 - type: entity
   id: ASBluespacePrisonRiot
   parent: BaseStationEventShortDelay
   components:
+  - type: GameRule
+    delay:
+      min: 1800  # 30 minutes - delay before grid spawns
+      max: 1800
   - type: StationEvent
-    startAnnouncement: station-event-bluespace-prison-riot-start
+    startAnnouncement: station-event-bluespace-prison-riot-incoming  # Aurora Song - "Prison ship detected, arriving in 30 minutes"
+    arrivalAnnouncement: station-event-bluespace-prison-riot-arrived  # Aurora Song - "Prison ship has arrived!"
     startAudio:
       path: /Audio/Announcements/attention.ogg
-    warningAnnouncement: station-event-bluespace-prison-riot-warning
-    endAnnouncement: station-event-bluespace-prison-riot-end
-    earliestStart: 999999  # Will never trigger automatically, revert in subsequent edits to enable!
+    arrivalAudio:  # Aurora Song - Play audio when ship arrives
+      path: /Audio/Announcements/attention.ogg
+    warningAnnouncement: station-event-bluespace-prison-riot-warning  # "Prison ship departing in 5 minutes"
+    warningDurationLeft: 300  # 5 minutes before event ends
+    endAnnouncement: station-event-bluespace-prison-riot-end  # "Prison ship has departed"
+    earliestStart: 7200  # 2 hours after shift start minimum before event can trigger
     weight: 1
-    duration: 1500
+    duration: 1500  # 25 minutes after grid spawns
     maxDuration: 2100
     reoccurrenceDelay: 14400
     requiredJobs:
-      Deputy: 2
+      Sergeant: 1
   - type: BluespaceErrorBountyRule
     includeGridValue: false
     announcementChannels:
     - Sle
+    - Medical
     groups:
       grid: !type:GridSpawnGroup
         nameLoc:
@@ -134,23 +144,32 @@
         penalty: 2500
 
 # Confiscation Mission - Smuggler Ship Interception
+# Aurora Song - Uses 4-announcement system: incoming (T+0) -> arrival (T+15m) -> warning (T+25m) -> end (T+30m)
 - type: entity
   id: ASBluespaceSmugglerInterception
   parent: BaseStationEventShortDelay
   components:
+  - type: GameRule
+    delay:
+      min: 900  # 15 minutes - delay before grid spawns
+      max: 900
   - type: StationEvent
-    startAnnouncement: station-event-bluespace-smuggler-interception-start
+    startAnnouncement: station-event-bluespace-smuggler-interception-incoming  # Aurora Song - "Smuggler vessel detected, arriving in 15 minutes"
+    arrivalAnnouncement: station-event-bluespace-smuggler-interception-arrived  # Aurora Song - "Smuggler vessel has arrived!"
     startAudio:
       path: /Audio/Announcements/attention.ogg
-    warningAnnouncement: station-event-bluespace-smuggler-interception-warning
-    endAnnouncement: station-event-bluespace-smuggler-interception-end
-    earliestStart: 999999  # Will never trigger automatically, revert in subsequent edits to enable!
+    arrivalAudio:  # Aurora Song - Play audio when ship arrives
+      path: /Audio/Announcements/attention.ogg
+    warningAnnouncement: station-event-bluespace-smuggler-interception-warning  # "Smuggler vessel departing in 5 minutes"
+    warningDurationLeft: 300  # 5 minutes before event ends
+    endAnnouncement: station-event-bluespace-smuggler-interception-end  # "Smuggler vessel has departed"
+    earliestStart: 7200  # 2 hours after shift start minimum before event can trigger
     weight: 3
-    duration: 900
+    duration: 900  # 15 minutes after grid spawns
     maxDuration: 2400
     reoccurrenceDelay: 1500
     requiredJobs:
-      Deputy: 2
+      Sergeant: 1
   - type: BluespaceErrorBountyRule
     includeGridValue: false
     announcementChannels:

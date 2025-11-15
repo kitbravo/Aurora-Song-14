@@ -9,7 +9,7 @@
 
 - type: quickPhrase
   id: JobDoC
-  text: job-name-doc
+  text: job-name-doc-short
   tab: Jobs
   group: Command
   styleClass: ButtonColorBlue
@@ -23,28 +23,28 @@
 
 - type: quickPhrase
   id: JobSTC
-  text: job-name-stc
+  text: job-name-stc-short
   tab: Jobs
   group: Logistics
   styleClass: ButtonColorYellow
 
 - type: quickPhrase
   id: JobPlantTechnician
-  text: job-name-plant-technician
+  text: job-name-plant-technician  # Uses NF locale
   tab: Jobs
   group: Engineering
   styleClass: ButtonColorOrange
 
 - type: quickPhrase
   id: JobPlantManager
-  text: job-name-plant-manager
+  text: job-name-plant-manager  # Uses NF locale
   tab: Jobs
   group: Engineering
   styleClass: ButtonColorOrange
 
 - type: quickPhrase
   id: JobPPM
-  text: job-name-ppm
+  text: job-name-ppm-short
   tab: Jobs
   group: Engineering
   styleClass: ButtonColorOrange

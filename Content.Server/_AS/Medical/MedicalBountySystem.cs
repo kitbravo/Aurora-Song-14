@@ -106,10 +106,23 @@ public sealed partial class ASMedicalBountySystem : EntitySystem
 
         if (component.Bounty == null)
         {
-            if (_cachedPrototypes.Count > 0)
-                component.Bounty = _random.Pick(_cachedPrototypes);
-            else
-                return; // Nothing to do, keep bounty at null.
+            // Try to load specific bounty from BountyId first
+            if (!string.IsNullOrEmpty(component.BountyId))
+            {
+                if (_proto.TryIndex<ASMedicalBountyPrototype>(component.BountyId, out var specificBounty))
+                    component.Bounty = specificBounty;
+                else
+                    Log.Warning($"Failed to find ASMedicalBountyPrototype with ID: {component.BountyId}");
+            }
+
+            // If still null, pick random bounty
+            if (component.Bounty == null)
+            {
+                if (_cachedPrototypes.Count > 0)
+                    component.Bounty = _random.Pick(_cachedPrototypes);
+                else
+                    return; // Nothing to do, keep bounty at null.
+            }
         }
 
         // Precondition: check entity can fulfill bounty conditions

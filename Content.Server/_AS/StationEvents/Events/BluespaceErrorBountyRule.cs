@@ -31,6 +31,8 @@ using Content.Server.Maps.NameGenerators;
 using System.Numerics;
 using Content.Shared.Dataset;
 using Robust.Shared.EntitySerialization.Systems;
+using Robust.Shared.Audio.Systems;
+using Robust.Shared.Player;
 
 namespace Content.Server._AS.StationEvents.Events;
 
@@ -59,10 +61,12 @@ public sealed class BluespaceErrorBountyRule : StationEventSystem<BluespaceError
     [Dependency] private readonly StationSystem _stationSystem = default!;
     [Dependency] private readonly RadioSystem _radio = default!;
     [Dependency] private readonly StationRenameWarpsSystems _renameWarps = default!;
+    [Dependency] private readonly SharedAudioSystem _audio = default!; // Aurora Song
 
     /// <summary>
     /// Adapted from New Frontier's BluespaceErrorRule.Started
     /// Spawns grid(s) for the bounty event
+    /// Aurora Song - Added arrival announcement support for 4-announcement system
     /// </summary>
     protected override void Started(EntityUid uid, BluespaceErrorBountyRuleComponent component, GameRuleComponent gameRule, GameRuleStartedEvent args)
     {
@@ -70,6 +74,35 @@ public sealed class BluespaceErrorBountyRule : StationEventSystem<BluespaceError
 
         Log.Info($"[BOUNTY DEBUG] BluespaceErrorBountyRule.Started called");
         Log.Info($"[BOUNTY DEBUG] Groups count: {component.Groups.Count}");
+
+        // Aurora Song - Send arrival announcement when grid spawns (4-announcement system)
+        if (TryComp<StationEventComponent>(uid, out var stationEvent))
+        {
+            if (!stationEvent.ArrivalAnnounced && stationEvent.ArrivalAnnouncement != null)
+            {
+                var allPlayersInGame = Filter.Empty().AddWhere(GameTicker.UserHasJoinedGame);
+
+                // Send chat announcement
+                _chatManager.DispatchFilteredAnnouncement(allPlayersInGame,
+                    Loc.GetString(stationEvent.ArrivalAnnouncement),
+                    playSound: false,
+                    colorOverride: stationEvent.ArrivalAnnouncementColor);
+
+                // Send radio announcement if configured
+                if (stationEvent.ArrivalRadioAnnouncement != null)
+                {
+                    var message = Loc.GetString(stationEvent.ArrivalRadioAnnouncement);
+                    var announcementMapUid = _mapSystem.GetMap(GameTicker.DefaultMap);
+                    _radio.SendRadioMessage(uid, message, stationEvent.ArrivalRadioAnnouncementChannel, announcementMapUid, escapeMarkup: false);
+                }
+
+                // Play audio if configured
+                _audio.PlayGlobal(stationEvent.ArrivalAudio, allPlayersInGame, true);
+
+                stationEvent.ArrivalAnnounced = true;
+                Log.Info($"[BOUNTY DEBUG] Arrival announcement sent");
+            }
+        }
 
         if (!_map.TryGetMap(GameTicker.DefaultMap, out var mapUid))
         {

@@ -18,6 +18,8 @@
     weight: 5
     duration: 1500 # 25 minutes
     maxDuration: 2100 # 35 minutes
+    requiredJobs:
+      Medic: 1
   - type: BluespaceErrorRule
     groups:
       grid: !type:GridSpawnGroup
