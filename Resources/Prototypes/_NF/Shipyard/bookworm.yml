@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: BB Bookworm
   description: A cozy medium-size library for travellers who wish to relax with a book or perhaps a board game.
-  price: 29900 # ~26482 0.05 27806.1 | Updated to 29900 (min: 29892.61)
+  price: 30000 # ~26482 0.05 27806.1 | Updated to 30000 (min: 29914.66)
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/bookworm.yml
