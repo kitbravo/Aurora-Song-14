@@ -4886,3 +4886,26 @@ Entries:
   id: 8836
   time: '2025-11-15T00:39:28.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/593
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: SLEO using NFSD protos still
+    - type: Add
+      message: SLE Fab 12g buckshot, and lights
+    - type: Fix
+      message: Botany wall locker fill
+    - type: Add
+      message: new events to event scheduler
+    - type: Remove
+      message: most medical loot from the Triage Shuttle event
+    - type: Add
+      message: bounty value to downed SLE officer corpses
+    - type: Fix
+      message: Enforcer tube size
+    - type: Add
+      message: new AAC tablet phrases
+    - type: Fix
+      message: SLE Uplink Vend breaking, probably
+  id: 8837
+  time: '2025-11-15T18:05:27.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/595
