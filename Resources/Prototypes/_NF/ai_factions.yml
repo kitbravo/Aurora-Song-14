@@ -1,32 +1,21 @@
+# SPDX-FileCopyrightText: 2024 Dvir
+# SPDX-FileCopyrightText: 2024 ErhardSteinhauer
+# SPDX-FileCopyrightText: 2024 Whatstone
+# SPDX-FileCopyrightText: 2025 Blu
+# SPDX-FileCopyrightText: 2025 BoskiYourk
+# SPDX-FileCopyrightText: 2025 NazrinNya
+# SPDX-FileCopyrightText: 2025 starch
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Mono edit start - Faction system improvements
+
 - type: npcFaction
   id: Pibble
-  hostile:
-  - Mouse
-  - Xeno
-  - Zombie
-  - SimpleHostile
-  - Dwarf
-  - Felinid
-  - Harpy
-  - Cat
-  - Chicken
-  - Monkey
-  - Wizard
-  - Dragon
-  - Xenoborg
-  ## Frontier Factions
-  - Goblin
-  - WizFedFaction
-  - BloodCultNF
-  - NFPirate
-  - ExplorersExpeditionNF
-  - ArtifactConstruct
-  - StreetGangNF
-  - DinosaursNF
-  - MercenariesExpeditionNF
-  - SiliconsExpeditionNF
-  - AberrantFleshExpeditionNF
-  - ContrabandClothing
+  neutral:
+  - Syndicate
+  - SyndicateNF
+  defaultHostile: true
 
 - type: npcFaction
   id: Dwarf
@@ -52,402 +41,58 @@
   id: Goblin
 
 - type: npcFaction
-  id: NFSyndicate
+  id: SyndicateNF
   friendly:
   - Syndicate
-  hostile:
-  ## SS14 factions
-  - NanoTrasen
-  #- Syndicate
-  - SimpleHostile
-  - SimpleNeutral
-  - Passive
-  - PetsNT
-  - Zombie
-  - Revolutionary
-  - Xeno
-  - Wizard
-  - Dragon
-  - Xenoborg
-  ## Frontier Factions
-  - Monkey
-  - Goblin
-  #- NFSyndicate
-  - WizFedFaction
-  - BloodCultNF
-  - NFPirate
-  - ExplorersExpeditionNF
-  - ArtifactConstruct
-  - StreetGangNF
-  - DinosaursNF
-  - MercenariesExpeditionNF
-  - SiliconsExpeditionNF
-  - AberrantFleshExpeditionNF
-  - ContrabandClothing
-  - ContrabandDetection
+  defaultHostile: true
 
 - type: npcFaction
   id: WizFedFaction
-  hostile:
-  ## SS14 factions
-  - NanoTrasen
-  - Syndicate
-  - SimpleHostile
-  - SimpleNeutral
-  - Passive
-  - PetsNT
-  - Zombie
-  - Revolutionary
-  - Xeno
+  friendly:
   - Wizard
-  - Dragon
-  - Xenoborg
-  ## Frontier Factions
-  - Monkey
-  - Goblin
-  - NFSyndicate
-  #- WizFedFaction
-  - BloodCultNF
-  - NFPirate
-  - ExplorersExpeditionNF
-  #- ArtifactConstruct
-  - StreetGangNF
-  - DinosaursNF
-  - MercenariesExpeditionNF
-  - SiliconsExpeditionNF
-  - AberrantFleshExpeditionNF
-  - ContrabandClothing
-  - ContrabandDetection
+  defaultHostile: true
 
 - type: npcFaction
   id: BloodCultNF
-  hostile:
-  ## SS14 factions
-  - NanoTrasen
-  - Syndicate
-  - SimpleHostile
-  - SimpleNeutral
-  - Passive
-  - PetsNT
-  - Zombie
-  - Revolutionary
-  - Xeno
-  - Wizard
-  - Dragon
-  - Xenoborg
-  ## Frontier Factions
-  - Monkey
-  - Goblin
-  - NFSyndicate
-  - WizFedFaction
-  #- BloodCultNF
-  - NFPirate
-  - ExplorersExpeditionNF
-  - ArtifactConstruct
-  - StreetGangNF
-  - DinosaursNF
-  - MercenariesExpeditionNF
-  - SiliconsExpeditionNF
-  - AberrantFleshExpeditionNF
-  - ContrabandClothing
-  - ContrabandDetection
+  defaultHostile: true
 
 - type: npcFaction
-  id: NFPirate
-  hostile:
-  ## SS14 factions
-  - NanoTrasen
-  - Syndicate
-  - SimpleHostile
-  - SimpleNeutral
-  - Passive
-  - PetsNT
-  - Zombie
-  - Revolutionary
-  - Xeno
-  - Wizard
-  - Dragon
-  - Xenoborg
-  ## Frontier Factions
-  #- Monkey
-  #- Goblin
-  - NFSyndicate
-  - WizFedFaction
-  - BloodCultNF
-  #- NFPirate
-  - ExplorersExpeditionNF
-  - ArtifactConstruct
-  - StreetGangNF
-  - DinosaursNF
-  - MercenariesExpeditionNF
-  - SiliconsExpeditionNF
-  - AberrantFleshExpeditionNF
-  # - ContrabandClothing
-  - ContrabandDetection
+  id: PirateNF
+  defaultHostile: true
 
 - type: npcFaction
   id: ArtifactConstruct
-  hostile:
-  ## SS14 factions
-  - NanoTrasen
-  - Syndicate
-  - SimpleHostile
-  - SimpleNeutral
-  - Passive
-  - PetsNT
-  - Zombie
-  - Revolutionary
-  - Xeno
-  - Wizard
-  - Dragon
-  - Xenoborg
-  ## Frontier Factions
-  - Monkey
-  #- Goblin
-  - NFSyndicate
-  #- WizFedFaction # Magic
-  - BloodCultNF
-  - NFPirate
-  - ExplorersExpeditionNF
-  #- ArtifactConstruct
-  - StreetGangNF
-  - DinosaursNF
-  - MercenariesExpeditionNF
-  - SiliconsExpeditionNF
-  - AberrantFleshExpeditionNF
-  - ContrabandClothing
-  - ContrabandDetection
+  defaultHostile: true
 
 - type: npcFaction
   id: StreetGangNF
-  hostile:
-  ## SS14 factions
-  - NanoTrasen
-  - Syndicate
-  - SimpleHostile
-  - SimpleNeutral
-  - Passive
-  - PetsNT
-  - Zombie
-  #- Revolutionary # Like their style
-  - Xeno
-  - Wizard
-  - Dragon
-  - Xenoborg
-  ## Frontier Factions
-  - Monkey
-  - Goblin
-  - NFSyndicate
-  - WizFedFaction
-  - BloodCultNF
-  - NFPirate
-  - ExplorersExpeditionNF
-  - ArtifactConstruct
-  #- StreetGangNF
-  - DinosaursNF
-  - MercenariesExpeditionNF
-  - SiliconsExpeditionNF
-  - AberrantFleshExpeditionNF
-  - ContrabandClothing
-  - ContrabandDetection
+  defaultHostile: true
 
 - type: npcFaction
   id: DinosaursNF
-  hostile:
-  ## SS14 factions
-  - NanoTrasen
-  - Syndicate
-  - SimpleHostile
-  - SimpleNeutral
-  - Passive
-  - PetsNT
-  - Zombie
-  - Revolutionary
-  - Xeno
-  - Wizard
-  - Dragon
-  - Xenoborg
-  ## Frontier Factions
-  - Monkey
-  - Goblin
-  - NFSyndicate
-  - WizFedFaction
-  - BloodCultNF
-  - NFPirate
-  - ExplorersExpeditionNF
-  - ArtifactConstruct
-  - StreetGangNF
-  #- DinosaursNF
-  - MercenariesExpeditionNF
-  - SiliconsExpeditionNF
-  - AberrantFleshExpeditionNF
-  - ContrabandClothing
-  - ContrabandDetection
+  defaultHostile: true
 
 - type: npcFaction
   id: ExplorersExpeditionNF
-  hostile:
-  ## SS14 factions
-  - NanoTrasen
-  - Syndicate
-  - SimpleHostile
-  - SimpleNeutral
-  - Passive
-  - PetsNT
-  - Zombie
-  - Revolutionary
-  - Xeno
-  - Wizard
-  - Dragon
-  - Xenoborg
-  ## Frontier Factions
-  - Monkey
-  - Goblin
-  - NFSyndicate
-  - WizFedFaction
-  - BloodCultNF
-  - NFPirate
-  #- ExplorersExpeditionNF
-  - ArtifactConstruct
-  - StreetGangNF
-  - DinosaursNF
-  - MercenariesExpeditionNF
-  - SiliconsExpeditionNF
-  - AberrantFleshExpeditionNF
-  - ContrabandClothing
-  - ContrabandDetection
+  defaultHostile: true
 
 - type: npcFaction
   id: MercenariesExpeditionNF
-  hostile:
-  ## SS14 factions
-  - NanoTrasen
-  - Syndicate
-  - SimpleHostile
-  - SimpleNeutral
-  - Passive
-  - PetsNT
-  - Zombie
-  - Revolutionary
-  - Xeno
-  - Wizard
-  - Dragon
-  - Xenoborg
-  ## Frontier Factions
-  - Monkey
-  - Goblin
-  - NFSyndicate
-  - WizFedFaction
-  - BloodCultNF
-  - NFPirate
-  - ExplorersExpeditionNF
-  - ArtifactConstruct
-  - StreetGangNF
-  - DinosaursNF
-  #- MercenariesExpeditionNF
-  - SiliconsExpeditionNF
-  - AberrantFleshExpeditionNF
-  - ContrabandClothing
-  - ContrabandDetection
+  defaultHostile: true
 
 - type: npcFaction
   id: SiliconsExpeditionNF
-  hostile:
-  ## SS14 factions
-  - NanoTrasen
-  - Syndicate
-  - SimpleHostile
-  - SimpleNeutral
-  - Passive
-  - PetsNT
-  - Zombie
-  - Revolutionary
-  - Xeno
-  - Wizard
-  - Dragon
-  - Xenoborg
-  ## Frontier Factions
-  - Monkey
-  - Goblin
-  - NFSyndicate
-  - WizFedFaction
-  - BloodCultNF
-  - NFPirate
-  - ExplorersExpeditionNF
-  - ArtifactConstruct
-  - StreetGangNF
-  - DinosaursNF
-  - MercenariesExpeditionNF
-  #- SiliconsExpeditionNF
-  - AberrantFleshExpeditionNF
-  - ContrabandClothing
-  - ContrabandDetection
+  defaultHostile: true
 
 - type: npcFaction
   id: AberrantFleshExpeditionNF
-  hostile:
-  ## SS14 factions
-  - NanoTrasen
-  - Syndicate
-  - SimpleHostile
-  - SimpleNeutral
-  - Passive
-  - PetsNT
-  - Zombie
-  - Revolutionary
-  - Xeno
-  - Wizard
-  - Dragon
-  - Xenoborg
-  ## Frontier Factions
-  - Monkey
-  - Goblin
-  - NFSyndicate
-  - WizFedFaction
-  - BloodCultNF
-  - NFPirate
-  - ExplorersExpeditionNF
-  - ArtifactConstruct
-  - StreetGangNF
-  - DinosaursNF
-  - MercenariesExpeditionNF
-  - SiliconsExpeditionNF
-  #- AberrantFleshExpeditionNF
-  - ContrabandClothing
-  - ContrabandDetection
+  friendly:
+  - Chimera # Mono edit
+  defaultHostile: true
 
 - type: npcFaction
   id: ContrabandClothing
-  hostile:
-  ## SS14 factions
-  - NanoTrasen
-  - Syndicate
-  - SimpleHostile
-  - SimpleNeutral
-  - Passive
-  - PetsNT
-  - Zombie
-  - Revolutionary
-  - Xeno
-  - Wizard
-  - Dragon
-  - Xenoborg
-  ## Frontier Factions
-  - Monkey
-  - Goblin
-  - NFSyndicate
-  - WizFedFaction
-  - BloodCultNF
-  - NFPirate
-  - ExplorersExpeditionNF
-  - ArtifactConstruct
-  - StreetGangNF
-  - DinosaursNF
-  - MercenariesExpeditionNF
-  - SiliconsExpeditionNF
-  - AberrantFleshExpeditionNF
-  #- ContrabandClothing
-  - ContrabandDetection
+  defaultHostile: true
 
 - type: npcFaction
   id: ContrabandDetection
@@ -456,37 +101,6 @@
 
 - type: npcFaction
   id: HostileUniversally
-  hostile:
-  ## SS14 factions
-  - NanoTrasen
-  - Mouse
-  - Passive
-  - PetsNT
-  - SimpleHostile
-  - SimpleNeutral
-  - Syndicate
-  - Xeno
-  - Zombie
-  - Revolutionary
-  - Wizard
-  - Dragon
-  - Xenoborg
-  ## Frontier Factions
-  - Cat
-  - Dwarf
-  - Harpy
-  - Monkey
-  - Goblin
-  - NFSyndicate
-  - WizFedFaction
-  - BloodCultNF
-  - NFPirate
-  - ExplorersExpeditionNF
-  - ArtifactConstruct
-  - StreetGangNF
-  - DinosaursNF
-  - MercenariesExpeditionNF
-  - SiliconsExpeditionNF
-  - AberrantFleshExpeditionNF
-  - ContrabandClothing
-  - ContrabandDetection
+  defaultHostile: true
+
+# Mono edit end.
