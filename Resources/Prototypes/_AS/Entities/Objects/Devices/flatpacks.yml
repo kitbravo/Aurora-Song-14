@@ -10,3 +10,17 @@
     entity: ASVehicleHoverbikeSLEKey
   - type: StaticPrice
     price: 2000
+
+- type: entity
+  parent: NfsdTechFabFlatpack
+  id: ASTechFabSLEFlatpack
+  name: SLE techfab flatpack
+  description: A flatpack used for constructing an SLE techfab.
+  components:
+  - type: Flatpack
+    entity: ASTechFabSLE
+  - type: StaticPrice
+    price: 250
+  - type: Item
+    shape:
+    - 0,0,1,1

@@ -54,7 +54,7 @@
     pocket2: NFWeaponEnergyPistolLaserX01Multiphase
   storage:
     back:
-    - NfsdTechFabFlatpack
+    - ASTechFabSLEFlatpack
     - Multitool
     - ASHoloprojectorSLE # Aurora Song - Changed from HoloprojectorNfsd to use SLE prototype
     - DoorRemoteNfsd
@@ -68,7 +68,7 @@
   job: Sheriff
   hasMindShield: true
   equipment:
-    head: ASClothingHeadHatSLECampaignFilled
+    head: ASClothingHeadHatSLECampaign
     mask: ASClothingMaskGasSLESheriff
     eyes: ASClothingEyesGlassesSLE
     outerClothing: ASClothingOuterCoatSLEFormalSheriff
