@@ -4927,3 +4927,10 @@ Entries:
   id: 8839
   time: '2025-11-16T00:05:03.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/597
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: Updated engine to 267.4
+  id: 8840
+  time: '2025-11-16T19:23:33.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/587
