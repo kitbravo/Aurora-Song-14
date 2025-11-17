@@ -42,7 +42,7 @@
     - type: SolutionContainerManager
       solutions:
         stomach:
-          maxVol: 10
+          maxVol: 30
         food:
           maxVol: 5
           reagents:
@@ -107,7 +107,7 @@
   - type: Metabolizer
     updateInterval: 1.5
     maxReagents: 2
-    metabolizerTypes: [Arachnid]
+    metabolizerTypes: [Fairy]
     groups:
     - id: Medicine
     - id: Cryogenic # Frontier
@@ -129,7 +129,7 @@
   - type: Metabolizer # The liver metabolizes certain chemicals only, like alcohol.
     updateInterval: 1.5
     maxReagents: 1
-    metabolizerTypes: [Animal]
+    metabolizerTypes: [Animal, Fairy]
     groups:
     - id: Alcohol
       rateModifier: 0.1 # removes alcohol very slowly along with the stomach removing it as a drink

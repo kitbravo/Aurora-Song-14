@@ -56,12 +56,9 @@
   - type: Stamina
   - type: Bloodstream
     bloodReagent: FairyBlood
-    BloodMaxVolume: 20
+    bloodMaxVolume: 50
   - type: PseudoItem
     size: Small
-    shape:
-      - 0, 0, 0, 0
-      - 0, 0, 0, 0
   - type: Vocal
     sounds:
       Male: MaleHuman
@@ -101,6 +98,7 @@
   parent: MobHumanDummy
   id: MobFairyDummy
   noSpawn: true
+  categories: [ HideSpawnMenu ]
   description: A dummy fairy meant to be used in character setup.
   components:
   - type: HumanoidAppearance

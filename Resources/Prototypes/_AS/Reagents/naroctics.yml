@@ -156,6 +156,14 @@
     Narcotic:
       metabolismRate : 0.5
       effects:
+      - !type:MovespeedModifier
+        walkSpeedModifier: 1.1
+        sprintSpeedModifier: 1.1
+      - !type:ModifyStatusEffect
+        effectProto: StatusEffectSeeingRainbow
+        time: 16
+        type: Add
+        refresh: false
       - !type:PopupMessage
         type: Local
         visualType: Medium
@@ -168,4 +176,31 @@
           - "reagent-effect-fairy6"
           - "reagent-effect-fairy7"
           - "reagent-effect-fairy8"
-        probability: 0.8
+        probability: 0.5
+      - !type:PopupMessage
+        type: Local
+        visualType: Small
+        messages:
+          - "reagent-effect-fairy-fade"
+        probability: 0.35
+        conditions:
+          - !type:ReagentThreshold
+            max: 0.5
+      - !type:Drunk
+        slurSpeech: false
+        boozePower: 20
+        conditions:
+          - !type:ReagentThreshold
+            min: 13
+      - !type:GenericStatusEffect
+        key: Stutter
+        component: ScrambledAccent
+        conditions:
+          - !type:ReagentThreshold
+            min: 13
+      - !type:GenericStatusEffect
+        key: TemporaryBlindness
+        component: TemporaryBlindness
+        conditions:
+          - !type:ReagentThreshold
+            min: 13

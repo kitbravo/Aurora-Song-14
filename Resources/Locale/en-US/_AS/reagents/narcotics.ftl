@@ -57,3 +57,5 @@ reagent-effect-fairy5 = Lets get MOVING!
 reagent-effect-fairy6 = Hell yeah!
 reagent-effect-fairy7 = WOOOHOOOO!!!!
 reagent-effect-fairy8 = You're unstoppable!!!
+
+reagent-effect-fairy-fade = All the magic of the world fades away.

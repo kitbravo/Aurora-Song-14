@@ -11,7 +11,7 @@
       reagents:
       - ReagentId: Fat
         Quantity: 3
-      - ReagentId: Blood
+      - ReagentId: FairyBlood
         Quantity: 10
 
 - type: entity
@@ -27,7 +27,7 @@
       reagents:
       - ReagentId: Fat
         Quantity: 10
-      - ReagentId: Blood
+      - ReagentId: FairyBlood
         Quantity: 20
 
 - type: entity
