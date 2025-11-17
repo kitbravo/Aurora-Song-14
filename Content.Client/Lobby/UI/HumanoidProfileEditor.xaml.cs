@@ -1471,9 +1471,9 @@ namespace Content.Client.Lobby.UI
             }
 
             UpdateWidthControls();
+        }
 
-
-// Aurora: Sliders end
+        // Aurora: Sliders end
         public bool IsDirty
         {
             get => _isDirty;
