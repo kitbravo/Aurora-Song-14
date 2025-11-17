@@ -4968,3 +4968,10 @@ Entries:
   id: 8842
   time: '2025-11-17T00:19:36.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/598
+- author: Zenixic
+  changes:
+    - type: Add
+      message: Added the Scythe into the Syndicate shipyard
+  id: 8843
+  time: '2025-11-17T20:12:48.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/592
