@@ -13,7 +13,9 @@
     short: true
   - type: HumanoidAppearance
     species: Fairy
-  - type: Fixtures
+  - type: Speech
+    speechSounds: Fairy
+    speechVerb: Fairy
     fixtures: # TODO: This needs a second fixture just for mob collisions.
       fix1:
         shape:
@@ -27,8 +29,6 @@
         - MobLayer
   - type: Body
     prototype: Fairy
-  - type: Speech
-    speechSounds: Alto
   - type: SlowOnDamage
     speedModifierThresholds:
       30: 0.7
@@ -59,9 +59,9 @@
     size: Small
   - type: Vocal
     sounds:
-      Male: MaleHuman
-      Female: FemaleHuman
-      Unsexed: MaleHuman
+      Male: FairySpeech
+      Female: FairySpeech
+      Unsexed: FairySpeech
   - type: FaxableObject
     insertingState: inserting_mouse
   - type: NpcFactionMember

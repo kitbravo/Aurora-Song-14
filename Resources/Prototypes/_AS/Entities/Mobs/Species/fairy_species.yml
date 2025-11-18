@@ -4,7 +4,7 @@
   roundStart: true
   prototype: MobFairy
   sprites: MobHumanSprites
-  markingLimits: MobHumanMarkingLimits
+  markingLimits: MobFairyMarkingLimits
   dollPrototype: MobFairyDummy
   skinColoration: HumanAnimal # DEN
   maleFirstNames: names_fairy_first
