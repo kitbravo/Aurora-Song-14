@@ -105,7 +105,7 @@
     - Burst
     - SemiAuto
     burstFireRate: 10
-  - type: GunWieldBonusa
+  - type: GunWieldBonus
     minAngle: -28
     maxAngle: -25
   - type: SpeedModifiedOnWield
