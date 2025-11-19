@@ -81,6 +81,7 @@ public sealed partial class ContrabandPalletConsoleComponent : Component
         {"NFWeaponEnergyRifleSniperXrayCannonExpedition","NFWeaponEnergyRifleSniperXrayCannon"},
         {"NFWeaponEnergyRifleSniperCannonExpedition","NFWeaponEnergyRifleSniperCannon"},
         {"NFWeaponEnergyRifleTemperatureExpedition","NFWeaponEnergyRifleTemperature"},
+        {"ASWeaponRifleAssaultEstocExpedition","ASWeaponRifleAssaultEstoc"}
 
         {"ClothingOuterHardsuitSyndie","ClothingOuterHardsuitShanlinUnpainted"},
         {"ClothingOuterHardsuitSyndieElite","ClothingOuterHardsuitShiweiUnpainted"},
