@@ -5058,3 +5058,10 @@ Entries:
   id: 8854
   time: '2025-11-19T08:03:32.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/608
+- author: assignedgod
+  changes:
+    - type: Fix
+      message: Fairy guidebook should actually exist now
+  id: 8855
+  time: '2025-11-19T11:43:31.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/610
