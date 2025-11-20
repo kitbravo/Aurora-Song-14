@@ -5072,3 +5072,10 @@ Entries:
   id: 8856
   time: '2025-11-20T08:51:09.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/614
+- author: assignedgod
+  changes:
+    - type: Fix
+      message: Fixed the estoc fill
+  id: 8857
+  time: '2025-11-20T23:06:48.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/616
