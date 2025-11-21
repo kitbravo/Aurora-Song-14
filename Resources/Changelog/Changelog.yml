@@ -5079,3 +5079,12 @@ Entries:
   id: 8857
   time: '2025-11-20T23:06:48.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/616
+- author: assignedgod
+  changes:
+    - type: Fix
+      message: Width scale will no longer move UI elements when you modify it
+    - type: Fix
+      message: Faries can now get hungry
+  id: 8858
+  time: '2025-11-21T20:18:48.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/617
