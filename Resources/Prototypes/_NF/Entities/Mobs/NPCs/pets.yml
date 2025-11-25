@@ -368,7 +368,7 @@
     implants:
     - RedLightImplant
     - DissonantWhispersImplant
-    - MedicalTrackingImplant
+ #   - MedicalTrackingImplant
   - type: IntrinsicRadioTransmitter
     channels:
     - Science
