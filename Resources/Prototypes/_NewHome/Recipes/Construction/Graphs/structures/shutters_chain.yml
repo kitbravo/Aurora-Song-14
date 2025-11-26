@@ -72,7 +72,7 @@
 
     - node: frame4
       edges:
-        - to: ShuttersChainNode
+        - to: ShuttersChain
           conditions:
             - !type:EntityAnchored
               anchored: true
@@ -92,7 +92,7 @@
             - tool: Screwing
               doAfter: 0.75
 
-    - node: ShuttersChainNode
+    - node: ShuttersChain
       entity: ShuttersChainOpen
       edges:
         - to: frame4

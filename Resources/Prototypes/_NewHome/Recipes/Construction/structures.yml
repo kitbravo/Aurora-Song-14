@@ -2,7 +2,7 @@
   id: ShuttersChain
   graph: ShuttersChain
   startNode: start
-  targetNode: ShuttersChainNode
+  targetNode: ShuttersChain
   category: construction-category-structures
   objectType: Structure
   placementMode: SnapgridCenter

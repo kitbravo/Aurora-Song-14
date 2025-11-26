@@ -17,7 +17,7 @@
     airBlocked: false
   - type: Construction
     graph: ShuttersChain
-    node: ShuttersChainNode
+    node: ShuttersChain
     containers:
     - board
 
