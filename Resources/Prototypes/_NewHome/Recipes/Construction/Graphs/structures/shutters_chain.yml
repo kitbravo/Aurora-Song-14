@@ -1,0 +1,44 @@
+# Chain shutter construction graph additions
+- type: constructionGraph
+  id: Shutters
+  graph:
+    - node: frame4
+      edges:
+        - to: ShutterChainFrame
+          conditions:
+            - !type:EntityAnchored
+              anchored: true
+          steps:
+            - material: MetalRod
+              amount: 8
+              doAfter: 2
+
+    - node: ShutterChainFrame
+      entity: ShutterChainFrame
+      edges:
+        - to: ShuttersChain
+          conditions:
+            - !type:EntityAnchored
+              anchored: true
+          steps:
+            - tool: Anchoring
+              doAfter: 1
+        - to: frame4
+          completed:
+            - !type:SpawnPrototype
+              prototype: PartRodMetal1
+              amount: 8
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: ShuttersChain
+      entity: ShuttersChainOpen
+      edges:
+        - to: ShutterChainFrame
+          conditions:
+            - !type:EntityAnchored
+              anchored: true
+          steps:
+            - tool: Anchoring
+              doAfter: 1

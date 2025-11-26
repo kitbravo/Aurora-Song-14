@@ -1,0 +1,9 @@
+- type: construction
+  id: ShuttersChain
+  graph: Shutters
+  startNode: start
+  targetNode: ShuttersChain
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: true
