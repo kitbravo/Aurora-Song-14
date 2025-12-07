@@ -4,8 +4,8 @@ meta:
   engineVersion: 267.4.0
   forkId: ""
   forkVersion: ""
-  time: 12/07/2025 16:53:34
-  entityCount: 642
+  time: 12/07/2025 18:46:31
+  entityCount: 643
 maps: []
 grids:
 - 1
@@ -3652,6 +3652,14 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 2.5,14.5
+      parent: 1
+- proto: ShelfWallFreezerDark
+  entities:
+  - uid: 643
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 2.5,5.5
       parent: 1
 - proto: Shower
   entities:
