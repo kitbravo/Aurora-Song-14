@@ -4,7 +4,7 @@ meta:
   engineVersion: 267.4.0
   forkId: ""
   forkVersion: ""
-  time: 12/07/2025 05:46:52
+  time: 12/07/2025 05:57:37
   entityCount: 640
 maps: []
 grids:
@@ -3837,7 +3837,6 @@ entities:
   - uid: 515
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
       pos: 3.5,9.5
       parent: 1
 - proto: Thruster
