@@ -9,7 +9,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 16 # Aurora - Average of .35 (15) and .20 (17)
+        Piercing: 17
         Structural: 2
 
 - type: entity
@@ -21,7 +21,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 20 # Aurora - Average of .35 (19) and .20 (20)
+        Piercing: 19
         Structural: 3
 
 - type: entity
@@ -33,8 +33,8 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 2 # Incendiary bullets do not pierce well | Aurora
-        Heat: 15 # Aurora - Average of .35 (14) and .20 (16)
+        Piercing: 3
+        Heat: 15 # 18 total damage
 
 - type: entity
   id: ASBulletPistol40Uranium
@@ -45,8 +45,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 10 # Aurora - Average of .35 (10) and .20 (10)
-        Radiation: 8 # Aurora - Average of .35 (6) and .20 (9)
+        Piercing: 10
+        Radiation: 8 # 18 total damage
 
 - type: entity
   id: ASBulletPistol40Practice
@@ -82,6 +82,6 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 1.5 # Aurora - Average of .35 (1) and .20 (2)
+        Blunt: 3
   - type: StaminaDamageOnCollide
-    damage: 15 # Aurora - Average of .35 (17) and .20 (12), ~7 shots to stun
+    damage: 18 # ~6 shots to stun
