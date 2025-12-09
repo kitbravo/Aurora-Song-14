@@ -750,6 +750,7 @@
     sprite: /Textures/_NF/Objects/Consumable/Food/meals.rsi
     state: tamale_husk
 
+- type: entity
   parent: FoodMealBase
   id: FoodMeatSausage
   name: cooked sausage
