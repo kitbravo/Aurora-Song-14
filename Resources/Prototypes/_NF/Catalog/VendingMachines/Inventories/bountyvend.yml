@@ -25,6 +25,7 @@
     ClothingEyesGlassesMercenary: 3
     ClothingUniformJumpsuitMercenary: 3
     ClothingUniformJumpskirtMercenary: 3
+    ASClothingNeckMantleMercenaryElite: 3
     ClothingOuterVestWebMercenary: 3
     ClothingOuterEVASuitMercenary: 4
     ClothingBeltMercenaryWebbing: 3
@@ -95,6 +96,7 @@
     ClothingUniformJumpsuitMercenary: 4294967295 # Infinite
     ClothingUniformJumpskirtMercenary: 4294967295 # Infinite
     ClothingOuterVestWebMercenary: 3
+    ASClothingNeckMantleMercenaryElite: 4294967295 # Infinite
     ClothingOuterEVASuitMercenary: 4294967295 # Infinite
     ClothingBeltMercenaryWebbing: 4294967295 # Infinite
     ClothingShoesBootsMercenary: 4294967295 # Infinite
