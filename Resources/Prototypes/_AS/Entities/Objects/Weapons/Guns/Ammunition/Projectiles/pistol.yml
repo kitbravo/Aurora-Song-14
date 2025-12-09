@@ -33,7 +33,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 3
+        Blunt: 3
         Heat: 15 # 18 total damage
 
 - type: entity
