@@ -25,7 +25,7 @@
   id: BlueLedLightTube
   components:
   - type: LightBulb
-    color: "#FF00FF"
+    color: "#0000FFFF"
     lightEnergy: 1
     lightRadius: 15
     lightSoftness: 0.9
