@@ -5277,3 +5277,10 @@ Entries:
   id: 8883
   time: '2025-12-09T05:25:30.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/641
+- author: Phoenix51505
+  changes:
+    - type: Tweak
+      message: Changed the size of the AAC tablet menu to accomodate new tabs
+  id: 8884
+  time: '2025-12-09T18:33:38.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/644
