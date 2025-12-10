@@ -5308,3 +5308,10 @@ Entries:
   id: 8886
   time: '2025-12-09T19:55:49.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/642
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Changed belts to layer on top of outerwear again.
+  id: 8887
+  time: '2025-12-10T19:57:55.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/646
