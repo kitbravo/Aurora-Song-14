@@ -5102,3 +5102,10 @@ Entries:
   id: 8860
   time: '2025-11-21T20:45:11.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/618
+- author: assignedgod
+  changes:
+    - type: Fix
+      message: 'Made SLE and Medic bluespace events happen on their own schedule '
+  id: 8861
+  time: '2025-11-23T20:56:24.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/619
