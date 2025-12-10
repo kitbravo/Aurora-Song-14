@@ -23,7 +23,6 @@
       60: 0.7 # Aurora Song 48>60
       80: 0.5 # Aurora Song 64>80
   - type: DamageStateVisuals
-    rotate: true # Aurora Song
   - type: RotationVisuals
     defaultRotation: 90
     horizontalRotation: 90
