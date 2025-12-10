@@ -297,7 +297,7 @@
       cost: 3
     - proto: MobRogueSiliconHunter
       cost: 4
-   # - proto: MobRogueSiliconCatcher
+   # - proto: MobRogueSiliconCatcher Aurora Song commented out
    #   cost: 3
    #   prob: 0.3
     - proto: MobRogueSiliconTesla

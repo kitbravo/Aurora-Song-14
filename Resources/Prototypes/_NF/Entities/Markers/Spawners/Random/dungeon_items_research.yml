@@ -186,11 +186,11 @@
     # Filled crates
     - CrateEngineeringKitShipyardRcd
     - CrateEngineeringKitRtg
-    - CrateEngineeringKitFabrication
+    - CrateEngineeringKitFabrication # Aurora Song Restored
     - CrateEngineerChiefHardsuit
-    - CrateServiceKitMedbay
-    - CrateServiceKitChemLab
-    - CrateServiceKitMedbayCryo
+    - CrateServiceKitMedbay # Aurora Song Restored
+    - CrateServiceKitChemLab # Aurora Song Restored
+    - CrateServiceKitMedbayCryo # Aurora Song Restored
     - CrateEvaKitCmo
     rareChance: 0.01
 

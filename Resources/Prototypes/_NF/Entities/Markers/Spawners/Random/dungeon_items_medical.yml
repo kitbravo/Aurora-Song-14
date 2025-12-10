@@ -575,9 +575,9 @@
     chance: 0.9
     offset: 0.0
     rarePrototypes:
-    - CrateServiceKitMedbay
-    - CrateServiceKitChemLab
-    - CrateServiceKitMedbayCryo
+    - CrateServiceKitMedbay # Aurora Song Restored
+    - CrateServiceKitChemLab # Aurora Song Restored
+    - CrateServiceKitMedbayCryo # Aurora Song Restored
     - CrateEvaKitCmo
     rareChance: 0.01
 
