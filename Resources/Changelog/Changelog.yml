@@ -5162,3 +5162,10 @@ Entries:
   id: 8868
   time: '2025-11-28T19:09:45.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/620
+- author: Zenixic
+  changes:
+    - type: Add
+      message: Ported Magic Spraypainter from frontier, find this in loadout selection.
+  id: 8869
+  time: '2025-11-29T04:14:49.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/626
