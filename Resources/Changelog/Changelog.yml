@@ -5213,3 +5213,10 @@ Entries:
   id: 8875
   time: '2025-12-04T16:57:33.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/635
+- author: Vandanna
+  changes:
+    - type: Tweak
+      message: add zombie Vroid to scheduler
+  id: 8876
+  time: '2025-12-04T17:21:10.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/634
