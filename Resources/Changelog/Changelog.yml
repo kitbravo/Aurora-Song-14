@@ -5141,3 +5141,10 @@ Entries:
   id: 8865
   time: '2025-11-26T14:05:58.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/622
+- author: assignedgod
+  changes:
+    - type: Fix
+      message: Arachnids teeth no longer stick out of they suit
+  id: 8866
+  time: '2025-11-26T14:13:45.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/611
