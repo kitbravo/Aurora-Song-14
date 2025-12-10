@@ -5148,3 +5148,10 @@ Entries:
   id: 8866
   time: '2025-11-26T14:13:45.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/611
+- author: assignedgod
+  changes:
+    - type: Remove
+      message: Removed the derelict mcargo from spawning in the pool
+  id: 8867
+  time: '2025-11-26T20:12:56.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/621
