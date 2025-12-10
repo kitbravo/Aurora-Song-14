@@ -5284,3 +5284,12 @@ Entries:
   id: 8884
   time: '2025-12-09T18:33:38.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/644
+- author: Vandanna
+  changes:
+    - type: Tweak
+      message: buffed .20 rifle ammunition
+    - type: Tweak
+      message: buffed .30 rifle ammunition
+  id: 8885
+  time: '2025-12-09T18:55:02.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/645
