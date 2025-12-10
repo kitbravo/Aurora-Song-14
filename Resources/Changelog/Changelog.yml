@@ -5248,3 +5248,10 @@ Entries:
   id: 8880
   time: '2025-12-07T19:47:45.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/639
+- author: Phoenix51505
+  changes:
+    - type: Add
+      message: Adds new slime sounds
+  id: 8881
+  time: '2025-12-09T04:14:15.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/640
