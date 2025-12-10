@@ -5192,3 +5192,10 @@ Entries:
   id: 8872
   time: '2025-11-30T21:10:29.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/628
+- author: Zenixic
+  changes:
+    - type: Tweak
+      message: 'Properly linked air alarms on the scorpion '
+  id: 8873
+  time: '2025-12-03T15:57:25.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/631
