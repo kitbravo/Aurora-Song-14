@@ -5109,3 +5109,10 @@ Entries:
   id: 8861
   time: '2025-11-23T20:56:24.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/619
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: 'Reduced Topical Self Application Time '
+  id: 8862
+  time: '2025-11-26T13:27:38.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/625
