@@ -214,7 +214,7 @@ public sealed partial class AnomalyComponent : Component
     /// anomaly being above the <see cref="GrowthThreshold"/>
     /// </summary>
     [DataField]
-    public float GrowingPointMultiplier = 1.5f; // Frontier: 1.5<1.2 Aurora 1.2>1.5
+    public float GrowingPointMultiplier = 1.5f;
     #endregion
 
     /// <summary>
