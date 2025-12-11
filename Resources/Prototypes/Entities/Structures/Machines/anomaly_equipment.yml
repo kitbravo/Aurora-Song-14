@@ -275,10 +275,10 @@
         - RawMaterial # Frontier
     materialWhiteList:
 #    - Plasma # Frontier
-    - Anomalite # Frontier
+    - Bananium # Aurora
     storage: # Frontier
-      Anomalite: 300 # Frontier: one free charge
-    storageLimit: 300 # Frontier: one charge
+      Bananium: 1000 # Frontier: one free charge Aurora: One free charge
+    storageLimit: 1000 # Frontier: one charge Aurora: One free
   # - type: OreSiloClient # Frontier
   - type: Fixtures
     fixtures:
