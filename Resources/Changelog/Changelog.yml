@@ -5333,3 +5333,10 @@ Entries:
   id: 8889
   time: '2025-12-11T15:50:09.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/650
+- author: Phoenix51505
+  changes:
+    - type: Tweak
+      message: 'Allowed AAC Tablets to whisper '
+  id: 8890
+  time: '2025-12-11T16:10:35.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/652
