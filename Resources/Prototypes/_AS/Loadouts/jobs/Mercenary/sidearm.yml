@@ -4,11 +4,13 @@
   id: MercenarySidearm
   name: loadout-group-mercenary-sidearm
   minLimit: 0
-  maxLimit: 1
+  maxLimit: 2
   loadouts:
   - MercenarySidearmMK58
   - MercenarySidearmPollock
   - MercenarySidearmFitz
+  - MercenarySidearmLaserPistol
+  - MercenarySidearmDisabler
 
 # Loadouts
 - type: loadout
@@ -31,3 +33,17 @@
   storage:
     back:
     - NFWeaponRevolverFitz
+
+- type: loadout
+  id: MercenarySidearmLaserPistol
+  price: 4500
+  storage:
+    back:
+    - NFWeaponEnergyPistolLaser
+
+- type: loadout
+  id: MercenarySidearmDisabler
+  price: 3800
+  storage:
+    back:
+    - NFWeaponEnergyPistolDisabler
