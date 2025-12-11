@@ -5377,3 +5377,10 @@ Entries:
   id: 8895
   time: '2025-12-11T21:15:45.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/649
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: Hard projectiles can now mine soft asteroids
+  id: 8896
+  time: '2025-12-11T21:18:21.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/648
