@@ -5363,3 +5363,10 @@ Entries:
   id: 8893
   time: '2025-12-11T20:46:42.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/651
+- author: assignedgod
+  changes:
+    - type: Add
+      message: Added Bananium refinement from anomalite
+  id: 8894
+  time: '2025-12-11T21:09:10.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/654
