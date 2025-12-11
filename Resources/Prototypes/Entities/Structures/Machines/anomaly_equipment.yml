@@ -278,7 +278,7 @@
     - Bananium # Aurora
     storage: # Frontier
       Bananium: 1000 # Frontier: one free charge Aurora: One free charge
-    storageLimit: 1000 # Frontier: one charge Aurora: One free
+    storageLimit: 1500 # Frontier: one charge Aurora: One free
   # - type: OreSiloClient # Frontier
   - type: Fixtures
     fixtures:
