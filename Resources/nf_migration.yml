@@ -611,7 +611,6 @@ CellRechargerCircuitboard: WeaponCapacitorRechargerCircuitboard
 # 2025-07-15 Upstream hardsuit changes
 SuitStorageWallmountBasic: SuitStorageWallmountEVA
 
-<<<<<<< HEAD
 # 2025-07-01 | Aurora: M90 refactored to no longer have useless GL
 NFWeaponRifleAssaultM90GrenadeLauncher: NFWeaponRifleAssaultM90
 
@@ -619,13 +618,13 @@ NFWeaponRifleAssaultM90GrenadeLauncher: NFWeaponRifleAssaultM90
 DVSmartFridge: SmartFridge
 
 # 2025-10-10 Inflatable structures
-#InflatableWall: NFInflatableWall
-#InflatableWallStack1: NFInflatableWallStack1
-#InflatableWallStack5: NFInflatableWallStack5
-#InflatableWallStack: NFInflatableWallStack
-#InflatableDoor: NFInflatableDoor
-#InflatableDoorStack1: NFInflatableDoorStack1
-#InflatableDoorStack: NFInflatableDoorStack
+InflatableWall: NFInflatableWall
+InflatableWallStack1: NFInflatableWallStack1
+InflatableWallStack5: NFInflatableWallStack5
+InflatableWallStack: NFInflatableWallStack
+InflatableDoor: NFInflatableDoor
+InflatableDoorStack1: NFInflatableDoorStack1
+InflatableDoorStack: NFInflatableDoorStack
 
 # 2025-10-15 Wizard NPC rework
 SpawnMobWizFedWizard: SpawnNFMobWizardApprentice
@@ -650,13 +649,3 @@ SpawnMobWizFedWizardRedHardsuit: SpawnNFMobWizardRedAdept
 SpawnMobWizFedWizardVioletHardsuit: SpawnNFMobWizardPurpleAdept
 SpawnMobWizFedWizardBrickHardsuit: SpawnNFMobWizardBrickMaster
 SpawnMobWizFedWizardSoapHardsuit: SpawnNFMobWizardPurpleMaster
-=======
-# 2025-10-10 Inflatable structures
-InflatableWall: NFInflatableWall
-InflatableWallStack1: NFInflatableWallStack1
-InflatableWallStack5: NFInflatableWallStack5
-InflatableWallStack: NFInflatableWallStack
-InflatableDoor: NFInflatableDoor
-InflatableDoorStack1: NFInflatableDoorStack1
-InflatableDoorStack: NFInflatableDoorStack
->>>>>>> 07b88443da7 (Inflatable structures (resprited old, added new) (#3969))
