@@ -53,10 +53,6 @@
       - id: SpawnDungeonLootGunT3
       - id: SpawnDungeonLootGunT4
       - id: SpawnDungeonLootMeleeT4
-      - !type:GroupSelector
-       children:
-       - id: DungeonLootMercenaryUIVGunsSpawnerRare
-       weight: 0.1
 
 - type: entityTable
   id: DungeonLootMercenaryUIVGunsRare  #Intended goal is to make syndicate guns spawn less than other guns
