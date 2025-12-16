@@ -65,6 +65,9 @@
       - id: SpearReinforced # Aurora: Moved to t2
       - id: SpearPlasma # Aurora: Moved to t2
       - id: SpearSharkMinnow  # Aurora: Moved to t2
+      - id: Shinai # Aurora: Moved to t2
+      - id: Spear  #Aurora: Moved to t2
+      - id: SpearBone #Aurora: Moved to t2
     - !type:NestedSelector
       weight: 0.05
       tableId: TableDungeonLootWeaponsMeleeTier3
@@ -78,8 +81,8 @@
       weight: 0.95
       children:
       - id: Shovel
-      - id: Spear
-      - id: SpearBone
+      #- id: Spear  #Aurora: Move to t2
+      #- id: SpearBone # Aurora: Move to t2
       - id: KukriKnife
       - id: SurvivalKnife
       - id: RitualDagger
@@ -90,6 +93,8 @@
       - id: EldritchBlade
       - id: Katana
       - id: Machete
+      - id: WeaponCrusherDagger  # Aurora: Moved to t3
+      - id: WeaponCrusher # Aurora: Moved to t3
     - !type:NestedSelector
       weight: 0.05
       tableId: TableDungeonLootWeaponsMeleeTier4
@@ -105,7 +110,7 @@
       - id: CaneBlade
       - id: Cutlass
       - id: ClothingHandsKnuckleDustersSyndicate
-      - id: Shinai
+      #- id: Shinai Aurora: Moved to t2
       - id: WeaponBaguette
       - id: PlasteelArmingSword
       #- id: SpearReinforced Aurora: Moved to t2
@@ -117,8 +122,8 @@
       - id: CaptainSabre
       - id: ClothingHandsGlovesNorthStar
       - id: ToolboxSyndicate
-      - id: WeaponCrusherDagger
-      - id: WeaponCrusher
+      #- id: WeaponCrusherDagger  # Aurora: move to t3
+      #- id: WeaponCrusher # Aurora: move to t3
       - id: WeaponCrusherGlaive
       - id: Rapier # Aurora
     - !type:NestedSelector

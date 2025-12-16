@@ -3,15 +3,38 @@
   name: Grand Gambling Crate
   parent: CrateGenericSteel
   components:
-  - type: StorageFill
-    contents:
-      - id: LotteryPullBasic
-        prob: 1.0
-        count: 30
-      - id: LotteryPullBasic
-        prob: 0.5
-        count: 5
-      - id: LotteryPullBasic
-        prob: 0.25
-        count: 5
-
+  - type: EntityStorage
+    capacity: 40
+  - type: ContainerFill
+    containers:
+      entity_storage: #30 pulls
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
+        - LotteryPullBasic
