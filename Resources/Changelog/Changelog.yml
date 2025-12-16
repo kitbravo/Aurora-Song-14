@@ -5425,3 +5425,14 @@ Entries:
   id: 8901
   time: '2025-12-16T20:53:19.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/663
+- author: Vandanna
+  changes:
+    - type: Add
+      message: Medic Hardsuit
+    - type: Fix
+      message: Medic Gear Vend uses proper suffix
+    - type: Remove
+      message: PrivSec suit from Medic Gear Vend
+  id: 8902
+  time: '2025-12-16T20:58:12.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/662
