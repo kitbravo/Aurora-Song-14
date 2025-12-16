@@ -81,6 +81,11 @@
     sprite: _AS/Clothing/OuterClothing/Hardsuits/medic_armored.rsi
   - type: Clothing
     sprite: _AS/Clothing/OuterClothing/Hardsuits/medic_armored.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
+      - state: equipped-OUTERCLOTHING-unshaded
+        shader: unshaded
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitMedicArmored
 
