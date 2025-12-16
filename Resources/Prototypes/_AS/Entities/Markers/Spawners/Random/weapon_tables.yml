@@ -43,5 +43,3 @@
       # - Id:  WeaponCaseLongEnergyGunExpedition
       # - Id:  WeaponCaseLongLaserCannonExpedition
        - Id: WeaponCaseHeavyAsmgtExpeditions
-    - !type:NestedSelector
-      weight: 0.05
