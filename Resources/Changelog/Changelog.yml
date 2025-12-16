@@ -5400,3 +5400,10 @@ Entries:
   id: 8898
   time: '2025-12-15T19:54:29.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/658
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: Re-enabled the santa anomaly. Look out for dangerous presents!
+  id: 8899
+  time: '2025-12-16T18:27:54.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/660
