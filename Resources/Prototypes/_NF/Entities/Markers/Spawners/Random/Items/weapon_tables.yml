@@ -117,6 +117,7 @@
       - id: WeaponCrusherDagger
       - id: WeaponCrusher
       - id: WeaponCrusherGlaive
+      - id: Rapier # Aurora
     - !type:NestedSelector
       weight: 0.05
       tableId: TableDungeonLootWeaponsMeleeTier5
@@ -136,7 +137,7 @@
       - id: ClothingHandsGlovesBoxingRigged
       - id: UnholyHalberd
       - id: SecBreachingHammer
-      - id: ThrowingKnife
+      #- id: ThrowingKnife
       - id: MiningDrillDiamond
       - id: EnergyKatana
       - id: Truncheon
@@ -190,10 +191,11 @@
       - id: WeaponCaseShortArgentiExpedition
       - id: WeaponCaseShortLuckyExpedition
       - id: WeaponCaseShortDeckardExpedition
-      - id: WeaponCaseShortRitland45Expedition
+      #- id: WeaponCaseShortRitland45Expedition
       - id: WeaponCaseLongBarlowsBoltExpedition
       - id: WeaponCaseLongRepeaterExpedition
       - id: WeaponCaseLongSniperCeremonialExpedition
+      - id: WeaponCaseShortSvalinnExpedition # Svalinn to T1 | Aurora Song
     - !type:NestedSelector
       weight: 0.05
       tableId: TableDungeonLootWeaponsRangedTier2
@@ -207,18 +209,20 @@
       weight: 0.95
       children:
       - id: WeaponCaseShortCobra
-      - id: WeaponCaseShortN1984Expedition
       - id: WeaponCaseShortViper
       - id: WeaponCaseShortFitzExpedition
       - id: WeaponCaseShortWard45Expedition
       - id: WeaponCaseShortRevolverPirate
-      - id: WeaponCaseLongC20r
-      - id: WeaponCaseLongJackdaw
+      #- id: WeaponCaseLongC20r  # Aurora: Uptiered
+      #- id: WeaponCaseLongJackdaw # Aurora: Uptiered
       - id: WeaponCaseLongGestioExpedition
       - id: WeaponCaseLongWeaponRifleNovaliteC1Expedition
       - id: WeaponCaseLongSVSExpedition
       - id: WeaponCaseLongKammererExpedition
       - id: WeaponCaseShortLaserGunExpedition
+      - id: WeaponCaseLongMusketExpedition # Musket to T2 | Aurora Song
+      - id: WeaponCaseLongLaserCarbineExpedition # Laser Carbine to T2 | Aurora Song
+      - id: WeaponCaseShortPython45Expedition # Aurora: Pyhton to T2
     - !type:NestedSelector
       weight: 0.05
       tableId: TableDungeonLootWeaponsRangedTier3
@@ -231,15 +235,20 @@
     - !type:GroupSelector
       weight: 0.95
       children:
-      - id: WeaponCaseLongTypewriterExpedition
+      # - id: WeaponCaseLongTypewriterExpedition #Auora: to t2
       - id: WeaponCaseLongAtreidesExpedition
       - id: WeaponCaseLongWT550Expedition
       - id: WeaponCaseLongDrozdExpedition
       - id: WeaponCaseLongM90Expedition
       - id: WeaponCaseLongLecterExpedition
       - id: WeaponCaseShortSvalinnExpedition
-      - id: WeaponCaseLongHristovExpedition
-      - id: WeaponCaseLongMusketExpedition
+      # - id: WeaponCaseLongHristovExpedition #Aurora: To t2
+      # - id: WeaponCaseLongMusketExpedition  Aurora: to T3
+      - id: WeaponCaseLongFalchionExpedition # Aurora Weapon
+      - id: WeaponCaseShortBasinExpedition # Aurora Weapon
+      - id: WeaponCaseKasyreExpedition # Aurora Weapon
+      - id: WeaponCaseShortCobra # Cobra to T3 | Aurora Song
+      - id: WeaponCaseShortN1984Expedition # N1984 to T3 | Aurora Song
     - !type:NestedSelector
       weight: 0.05
       tableId: TableDungeonLootWeaponsRangedTier4
@@ -260,7 +269,10 @@
       - id: WeaponCaseShortAdvancedLaserExpedition
       - id: WeaponCaseLongLaserCarbineExpedition
       - id: WeaponCaseLongXrayCannonExpedition
-      - id: WeaponCaseLongTemperatureGunExpedition
+      # - id: WeaponCaseLongTemperatureGunExpedition Aurora: Removed
+      - id: WeaponCaseLongC20r # C20r to T4 | Aurora Song
+      - id: WeaponCaseAP4CExpeditionT4 # Aurora
+      - id: WeaponCaseLongEstocExpeditionT4 # Aurora
     - !type:NestedSelector
       weight: 0.05
       tableId: TableDungeonLootWeaponsRangedTier5
@@ -273,12 +285,16 @@
     - !type:GroupSelector
       weight: 0.95
       children:
-      - id: WeaponCaseLongLauncherRocketExpedition
-      - id: WeaponCaseLongLauncherChinaLake
+      #- id: WeaponCaseLongLauncherRocketExpedition #Aurora: t6
+      #- id: WeaponCaseLongLauncherChinaLake #  #Aurora: t6
       - id: WeaponCaseHeavyLightMachineGunL6
       - id: WeaponCaseLongEnergyGunExpedition
       - id: WeaponCaseLongLaserCannonExpedition
-      - id: WeaponCaseHeavyAsmgtExpeditions
+      - id: WeaponCaseLongEstocExpeditionT5 # Aurora
+      #- id: WeaponCaseHeavyAsmgtExpeditions  #Aurora: t6
+    - !type:NestedSelector
+      weight: 0.05
+      tableId: TableDungeonLootWeaponsRangedTier6
 
 # region explosives
 - type: entityTable
