@@ -46,7 +46,3 @@
       tags:
       - NFBlueprintNfsdTechfab
   - type: OreSiloClient
-  - type: BlueprintReceiver
-    whitelist:
-      tags:
-      - NFBlueprintNfsdTechfab
