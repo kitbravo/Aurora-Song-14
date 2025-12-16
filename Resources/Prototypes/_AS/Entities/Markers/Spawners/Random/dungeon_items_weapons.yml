@@ -26,3 +26,22 @@
     - WeaponCaseHeavyAsmgtExpeditions
     chance: 1.0
     offset: 0.0
+
+# region ranged T5
+- type: entityTable
+  id: TableDungeonLootWeaponsRangedTier6
+  table: !type:GroupSelector
+    children:
+    - !type:GroupSelector
+      weight: 0.95
+      children:
+      #- id: WeaponCaseLongLauncherRocketExpedition #Aurora: t6
+       - Id: WeaponCaseLongLauncherRocketExpedition
+      #-  Id:  WeaponCaseLongJackdaw
+       - Id: WeaponCaseLongLauncherChinaLake
+      # - Id:  WeaponCaseHeavyLightMachineGunL6
+      # - Id:  WeaponCaseLongEnergyGunExpedition
+      # - Id:  WeaponCaseLongLaserCannonExpedition
+       - Id: WeaponCaseHeavyAsmgtExpeditions
+    - !type:NestedSelector
+      weight: 0.05
