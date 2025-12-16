@@ -102,7 +102,7 @@
     chance: 0.9
     offset: 0.0
     rarePrototypes:
-    - CrateServiceKitHydroponics
+    - CrateServiceKitHydroponics # Aurora Song Restored
     rareChance: 0.005
 
 - type: entity

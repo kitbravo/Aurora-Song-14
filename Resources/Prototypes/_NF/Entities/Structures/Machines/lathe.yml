@@ -81,6 +81,7 @@
     - NFPaperAndPaperAccessories
     - ReportingStatic # DeltaV
     - NFMcServiceTechfabStatic
+    - ASBlueMagentaLights # Aurora
 
 - type: entity
   parent: [ NFBlueprintReceiverBase, BaseLatheLube ]
@@ -109,6 +110,7 @@
     runningState: icon
     staticPacks:
     - NFEngineeringTechfabDeprecatedStatic
+    - NFInflatablesStatic
   - type: BlueprintReceiver
     whitelist:
       tags:
@@ -142,6 +144,7 @@
     runningState: icon
     staticPacks:
     - NFSalvageTechfabDeprecatedStatic
+    - NFInflatablesStatic
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFSalvageTechfabDeprecatedEmag

@@ -107,7 +107,7 @@
     - SpawnDungeonLootAmmoLethal
     - SpawnDungeonLootAmmoRubber
     - SpawnDungeonLootAmmoRubber
-    - SpawnDungeonLootAmmoPractice
+    #- SpawnDungeonLootAmmoPractice # Aurora Song: Removed
     chance: 0.75
     offset: 0.0
     rarePrototypes:

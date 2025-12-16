@@ -3,21 +3,21 @@
   id: Vitalis
   name: CTC Vitalis
   description: A medium medical support vessel designed for cryogenic deployment.
-  price: 75000 #62702 0.2 75242.4
+  price: 83000 #75000 #62702 0.2 75242.4 #Aurora Song
   category: Medium
   group: Medical
   access: Medical # Aurora
-  shuttlePath: /Maps/_NF/Shuttles/vitalis.yml
+  shuttlePath: /Maps/_AS/Shuttles/Medical/vitalis.yml #Aurora Song
   guidebookPage: ShipyardVitalis
   class:
   - Medical
   engine:
-  - Uranium
+  - AME #Aurora Song
 
 - type: gameMap
   id: Vitalis
   mapName: 'CTC Vitalis'
-  mapPath: /Maps/_NF/Shuttles/vitalis.yml
+  mapPath: /Maps/_AS/Shuttles/Medical/vitalis.yml #Aurora Song
   minPlayers: 0
   stations:
     Vitalis:

@@ -289,6 +289,7 @@
     - WeaponCaseLongXrayCannonExpedition
     - WeaponCaseLongEstocExpeditionT4
     - WeaponCaseLongHristovExpedition # Hristov to T4, this thing eats walls like candy |Aurora Song
+    - WeaponCaseAP4CExpeditionT4 # Aurora Song
     #- WeaponCaseLongTemperatureGunExpedition | Aurora Song - Too PVP focused, not much PVE use.
     chance: 1.0
     offset: 0.0

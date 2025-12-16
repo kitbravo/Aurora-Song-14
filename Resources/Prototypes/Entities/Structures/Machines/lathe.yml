@@ -145,6 +145,7 @@
     - NFPaperAndPaperAccessories # Frontier
     - ASBlueMagentaColorFlashlights # Aurora
     - SexAS # Aurora
+    - ASBlueMagentaLights # Aurora
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NfsdAmmoStatic # Frontier: SecurityAmmoStatic<NfsdAmmoStatic
@@ -535,9 +536,11 @@
     - EmptyMedkitsStatic
     - SurgeryStatic
     - NFLights # Aurora, let them amke lights cmon
+    - ASBlueMagentaLights # Aurora
     - ASBlueMagentaColorFlashlights # Aurora
     - NFMedicalStatic # Frontier
     - ASSmallMachines # Aurora Song
+    - ASBlueMagentaLights # Aurora
     # staticRecipes: # Deprecated functionality, use staticPacks instead
     #   - AACTablet # DeltaV
     # dynamicPacks: # Frontier
