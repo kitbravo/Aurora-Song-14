@@ -12,6 +12,8 @@ using System.Threading.Tasks;
 using Content.Server.NPC.Components;
 using Content.Server.NPC.Pathfinding;
 using Content.Server.NPC.Systems;
+using Content.Shared.CCVar;
+using Robust.Shared.Configuration;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
 using Robust.Shared.Physics.Components;
@@ -27,6 +29,9 @@ public sealed partial class MoveToOperator : HTNOperator, IHtnConditionalShutdow
     private NPCSteeringSystem _steering = default!;
     private PathfindingSystem _pathfind = default!;
     private SharedTransformSystem _transform = default!;
+    private IConfigurationManager _cfg = default!;
+
+    private bool _doNearbyPlayerCheck;
 
     /// <summary>
     /// When to shut the task down.
