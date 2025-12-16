@@ -62,6 +62,9 @@
       - id: FlashlightSeclite
       - id: ClothingHandsKnuckleDusters
       - id: PowerDrill
+      - id: SpearReinforced # Aurora: Moved to t2
+      - id: SpearPlasma # Aurora: Moved to t2
+      - id: SpearSharkMinnow  # Aurora: Moved to t2
     - !type:NestedSelector
       weight: 0.05
       tableId: TableDungeonLootWeaponsMeleeTier3
@@ -105,12 +108,12 @@
       - id: Shinai
       - id: WeaponBaguette
       - id: PlasteelArmingSword
-      - id: SpearReinforced
+      #- id: SpearReinforced Aurora: Moved to t2
       - id: Sledgehammer
       - id: Claymore
       - id: ClothingHandsKnuckleDustersStun
-      - id: SpearPlasma
-      - id: SpearSharkMinnow
+      #- id: SpearPlasma Aurora: Moved to t2
+      #- id: SpearSharkMinnow Aurora: Moved to t2
       - id: CaptainSabre
       - id: ClothingHandsGlovesNorthStar
       - id: ToolboxSyndicate
