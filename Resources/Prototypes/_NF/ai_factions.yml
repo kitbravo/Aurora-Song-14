@@ -103,4 +103,18 @@
   id: HostileUniversally
   defaultHostile: true
 
+# Aurora: Add missing NFSyndicate and NFPirate factions
+- type: npcFaction
+  id: NFSyndicate
+  friendly:
+  - Syndicate
+  - SyndicateNF
+  defaultHostile: true
+
+- type: npcFaction
+  id: NFPirate
+  friendly:
+  - PirateNF
+  defaultHostile: true
+
 # Mono edit end.

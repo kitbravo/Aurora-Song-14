@@ -96,4 +96,23 @@
   id: Wizard
   defaultHostile: true
 
+# Aurora: Add missing TSFMC faction
+- type: npcFaction
+  id: TSFMC
+  neutral:
+  - NanoTrasen
+  - Passive
+
+# Aurora: Add missing Xenoborg faction
+- type: npcFaction
+  id: Xenoborg
+  defaultHostile: true
+
+# Aurora: Add missing Chimera faction  
+- type: npcFaction
+  id: Chimera
+  friendly:
+  - AberrantFleshExpeditionNF
+  defaultHostile: true
+
 # Mono edit end.
