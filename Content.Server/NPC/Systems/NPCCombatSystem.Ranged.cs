@@ -137,7 +137,7 @@ public sealed partial class NPCCombatSystem
 
             var worldPos = _transform.GetWorldPosition(xform);
             var targetPos = _transform.GetWorldPosition(targetXform);
-            
+
             // Frontier -- Ranged NPC miss chance
             if (_random.Prob(comp.MissChance))
             {

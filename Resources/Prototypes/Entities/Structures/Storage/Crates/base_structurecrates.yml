@@ -59,7 +59,6 @@
   - type: EntityStorageVisuals
     stateDoorOpen: open
     stateDoorClosed: closed
-  - type: Climbable # Aurora's Song - Allow vaulting over crates
   - type: GenericVisualizer
     visuals:
       enum.PaperLabelVisuals.HasLabel:
