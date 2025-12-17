@@ -58,6 +58,7 @@
         layer:
         - MachineLayer
   - type: EntityStorage
+  - type: Climbable # Aurora's Song - Allow vaulting over closets
   - type: ContainerContainer
     containers:
       entity_storage: !type:Container
@@ -258,6 +259,7 @@
     - state: locked
       map: ["enum.LockVisualLayers.Lock"]
       shader: unshaded
+  - type: Climbable # Aurora's Song - Allow vaulting over suit storage
   - type: MovedByPressure
   - type: DamageOnHighSpeedImpact
     damage:
