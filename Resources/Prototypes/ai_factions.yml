@@ -35,7 +35,7 @@
   - TSFMC
   - Passive
   defaultHostile: true
-  
+
 - type: npcFaction
   id: Mouse
   hostile:
@@ -108,7 +108,7 @@
   id: Xenoborg
   defaultHostile: true
 
-# Aurora: Add missing Chimera faction  
+# Aurora: Add missing Chimera faction
 - type: npcFaction
   id: Chimera
   friendly:
