@@ -14,21 +14,21 @@
   parent: BaseVessel
   name: FSB Caladrius
   description: A medical carrier produced by the Far Star Biotech corporation. Designed for large scale colonization support, humanitarian relief and post-disaster investigation and recovery operations.
-  price: 200000 # 133217 0.5 199825.5
+  price: 210000 #200000 # 133217 0.5 199825.5 #Aurora Song
   category: Large
   group: Medical
   access: Medical # Aurora
-  shuttlePath: /Maps/_NF/Shuttles/caladrius.yml
+  shuttlePath: /Maps/_AS/Shuttles/Medical/caladrius.yml #Aurora Song
   guidebookPage: ShipyardCaladrius
   class:
   - Medical
   engine:
-  - Bananium
+  - AME #Aurora Song
 
 - type: gameMap
   id: Caladrius
   mapName: 'FSB Caladrius'
-  mapPath: /Maps/_NF/Shuttles/caladrius.yml
+  mapPath: /Maps/_AS/Shuttles/Medical/caladrius.yml #Aurora Song
   minPlayers: 0
   stations:
     Caladrius:

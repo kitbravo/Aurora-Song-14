@@ -125,7 +125,7 @@
 - type: guideEntry
   id: ShipyardCaladrius
   name: guide-entry-shipyard-caladrius
-  text: "/ServerInfo/_NF/Guidebook/Shipyard/Caladrius.xml"
+  text: "/ServerInfo/_AS/Guidebook/Shipyard/Caladrius.xml" #Aurora Song
 
 - type: guideEntry
   id: ShipyardCamper
