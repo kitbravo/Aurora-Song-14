@@ -69,7 +69,9 @@
 - type: npcFaction
   id: Syndicate
   friendly: # Frontier
-  - SyndicateNF # Frontier
+  # Aurora's Song: Changed from SyndicateNF to NFSyndicate - all Syndicate entities use NFSyndicate.
+  # This fixes turrets with Syndicate faction targeting naval mobs with NFSyndicate faction.
+  - NFSyndicate
   - Passive
   defaultHostile: true
 
@@ -85,7 +87,8 @@
   id: Revolutionary
   neutral:
   - Syndicate
-  - SyndicateNF # Frontier
+  # Aurora's Song: Changed from SyndicateNF to NFSyndicate to match actual faction usage
+  - NFSyndicate
   defaultHostile: true
 
 - type: npcFaction

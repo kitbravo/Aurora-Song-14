@@ -40,11 +40,12 @@
 - type: npcFaction
   id: Goblin
 
-- type: npcFaction
-  id: SyndicateNF
-  friendly:
-  - Syndicate
-  defaultHostile: true
+# Aurora's Song: Commented out unused SyndicateNF faction - all entities use NFSyndicate instead.
+# - type: npcFaction
+#   id: SyndicateNF
+#   friendly:
+#   - Syndicate
+#   defaultHostile: true
 
 - type: npcFaction
   id: WizFedFaction
@@ -108,7 +109,8 @@
   id: NFSyndicate
   friendly:
   - Syndicate
-  - SyndicateNF
+  # Aurora's Song: Added Passive so NFSyndicate mobs don't attack passive creatures (matches Syndicate faction behavior)
+  - Passive
   defaultHostile: true
 
 - type: npcFaction
