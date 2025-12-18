@@ -5443,3 +5443,44 @@ Entries:
   id: 8903
   time: '2025-12-17T15:43:28.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/666
+- author: assignedgod
+  changes:
+    - type: Add
+      message: 'Cherry picked PR #3690 from NF, cleaning up lathe code'
+    - type: Add
+      message: 'Cherry picked PR # 4098 from NF, adding new arcadia clothes'
+    - type: Add
+      message: >-
+        Cherry picked PR # 4047 from NF, adding some filled RPEDs to admin spawn
+        lists
+    - type: Add
+      message: 'Cherry picked PR # 4015 from NF, adding cloth to material lockers '
+    - type: Add
+      message: >-
+        Cherry picked PR # 4116 from NF, adding new leg holsters and drop
+        sheathes
+    - type: Add
+      message: 'Cherry picked PR # 3048 from NF, adding portable SMES'
+    - type: Add
+      message: >-
+        Cherry picked PR # 3851 from NF, adding colored lights to the service
+        fab
+    - type: Add
+      message: 'Cherry picked PR # 4087 from NF, overhauling dungeon loot spawns'
+    - type: Add
+      message: 'Cherry picked PR # 3769 from NF, adding new hardsuits'
+    - type: Add
+      message: 'Cherry picked PR # 4028 from NF, adding a new lathe'
+    - type: Add
+      message: 'Cherry picked PR # 4029 from NF, adding a new plant the glowshroom'
+    - type: Add
+      message: 'Cherry picked PR # 3828 from NF, adding medical pouches from wizden'
+    - type: Add
+      message: 'Cherry picked PR # 4095  from NF, tweaking pouch size'
+    - type: Add
+      message: 'Cherry picked PR # 3927 from NF, making blueprints nondepartmental'
+    - type: Add
+      message: 'Cherry picked PR # 3668 from NF, making stimulants injectors less lethal'
+  id: 8904
+  time: '2025-12-18T17:08:15.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/661
