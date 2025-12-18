@@ -5484,3 +5484,10 @@ Entries:
   id: 8904
   time: '2025-12-18T17:08:15.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/661
+- author: assignedgod
+  changes:
+    - type: Tweak
+      message: Moved the new modified vitalis the the NF namespace
+  id: 8905
+  time: '2025-12-18T17:08:32.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/667
