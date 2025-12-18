@@ -14,7 +14,9 @@
   id: Pibble
   neutral:
   - Syndicate
-  - SyndicateNF
+  # Aurora's Song: Commented out - SyndicateNF is unused, should be NFSyndicate if needed
+  # - SyndicateNF
+  - NFSyndicate
   defaultHostile: true
 
 - type: npcFaction
