@@ -303,7 +303,7 @@
     sprite: _NF/Clothing/Head/Hardsuits/hostile_environment.rsi
   - type: PointLight
     enabled: true
-    radius: 3.5
+    radius: 6
     energy: 5
     color: "#ffeead"
     soft: true
@@ -342,6 +342,7 @@
     color: "#A60000"
     soft: true
     castShadows: false
+    radius: 6 # Aurora
   - type: Armor
     modifiers:
       coefficients:
@@ -367,6 +368,7 @@
     color: "#3BFF1B"
     soft: true
     castShadows: false
+    radius: 6 # Aurora
   - type: Armor
     modifiers:
       coefficients:
