@@ -5498,3 +5498,10 @@ Entries:
   id: 8906
   time: '2025-12-19T03:55:24.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/668
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: NPC pathing, behaviors, and performance
+  id: 8907
+  time: '2025-12-19T19:55:57.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/664
