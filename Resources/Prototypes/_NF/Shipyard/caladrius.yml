@@ -18,7 +18,7 @@
   category: Large
   group: Medical
   access: Medical # Aurora
-  shuttlePath: /Maps/_AS/Shuttles/Medical/caladrius.yml #Aurora Song
+  shuttlePath: /Maps/_NF/Shuttles/caladrius.yml #Aurora Song
   guidebookPage: ShipyardCaladrius
   class:
   - Medical
@@ -28,7 +28,7 @@
 - type: gameMap
   id: Caladrius
   mapName: 'FSB Caladrius'
-  mapPath: /Maps/_AS/Shuttles/Medical/caladrius.yml #Aurora Song
+  mapPath: /Maps/_NF/Shuttles/caladrius.yml #Aurora Song
   minPlayers: 0
   stations:
     Caladrius:
