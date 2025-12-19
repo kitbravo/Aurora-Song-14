@@ -182,10 +182,10 @@
   id: TableDungeonLootEngineeringToolboxes
   table: !type:GroupSelector
     children:
-    # spawn probabilities skewed towards empty toolboxes to reduce entity spam
+    # spawn probabilities skewed towards empty toolboxes to reduce entity spam #Aurora: modified weights
     # Electrical
     - !type:GroupSelector
-      weight: 32
+      weight: 34
       children:
       - id: ToolboxElectricalFilled
         weight: 20
@@ -193,7 +193,7 @@
         weight: 80
     # Emergency
     - !type:GroupSelector
-      weight: 32
+      weight: 33
       children:
       - id: ToolboxEmergencyFilled
         weight: 20
@@ -201,7 +201,7 @@
         weight: 80
     # Mechanical
     - !type:GroupSelector
-      weight: 32
+      weight: 33
       children:
       - id: ToolboxMechanicalFilledAllTools
         weight: 15
@@ -209,13 +209,13 @@
         weight: 15
       - id: ToolboxMechanical
         weight: 70
-    # Trap
-    - !type:GroupSelector
-      weight: 4
-      children:
-      - id: NFToolboxMineCryo
-      - id: NFToolboxMineExplosive
-      - id: NFToolboxMineFire
+#    # Trap #Aurora Song: Commented out to prevent random explosions on player ships
+#    - !type:GroupSelector
+#      weight: 4
+#      children:
+#      - id: NFToolboxMineCryo
+#      - id: NFToolboxMineExplosive
+#      - id: NFToolboxMineFire
 # Commented out: buy it from your local SyndiVend
 #    # Syndicate
 #    - !type:GroupSelector
